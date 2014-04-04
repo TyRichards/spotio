@@ -74,13 +74,8 @@ class GFEntryList{
             case "delete" :
                 check_admin_referer('gforms_entry_list', 'gforms_entry_list');
                 $lead_id = $_POST["action_argument"];
-                if(GFCommon::current_user_can_any("gravityforms_delete_entries")){
-                    RGFormsModel::delete_lead($lead_id);
-                    $update_message = __("Entry deleted.", "gravityforms");
-                } else {
-                    $update_message = __("You don't have adequate permissions to delete entries.", "gravityforms");
-                }
-
+                RGFormsModel::delete_lead($lead_id);
+                $update_message = __("Entry deleted.", "gravityforms");
             break;
 
             case "bulk":
@@ -94,12 +89,8 @@ class GFEntryList{
 
                 switch($bulk_action) {
                     case "delete":
-                        if(GFCommon::current_user_can_any("gravityforms_delete_entries")){
-                            RGFormsModel::delete_leads($leads);
-                            $update_message = sprintf(__("%s deleted.", "gravityforms"), $entry_count);
-                        } else {
-                            $update_message = __("You don't have adequate permissions to delete entries.", "gravityforms");
-                        }
+                        RGFormsModel::delete_leads($leads);
+                        $update_message = sprintf(__("%s deleted.", "gravityforms"), $entry_count);
                     break;
 
                     case "trash":
@@ -152,9 +143,7 @@ class GFEntryList{
         }
 
         if(rgpost("button_delete_permanently")){
-            if(GFCommon::current_user_can_any("gravityforms_delete_entries")){
-                RGFormsModel::delete_leads_by_form($form_id, $filter);
-            }
+            RGFormsModel::delete_leads_by_form($form_id, $filter);
         }
 
         $sort_field = empty($_GET["sort"]) ? 0 : $_GET["sort"];
@@ -916,7 +905,7 @@ class GFEntryList{
                         }
                         ?>
                         <th scope="col" align="right" width="50">
-                            <a title="<?php _e("click to select columns to display" , "gravityforms") ?>" href="<?php echo trailingslashit(site_url(null, "admin")) ?>?gf_page=select_columns&id=<?php echo $form_id ?>&TB_iframe=true&height=365&width=600" class="thickbox entries_edit_icon"><i class="fa fa-cog"></i></a>
+                            <a title="<?php _e("click to select columns to display" , "gravityforms") ?>" href="<?php echo trailingslashit(site_url()) ?>?gf_page=select_columns&id=<?php echo $form_id ?>&TB_iframe=true&height=365&width=600" class="thickbox entries_edit_icon"><i class="fa fa-cog"></i></a>
                         </th>
                     </tr>
                 </thead>
@@ -1087,9 +1076,7 @@ class GFEntryList{
                                         case "created_by" :
                                             if(!empty($value)){
                                                 $userdata = get_userdata($value);
-                                                if(!empty($userdata)){
-                                                    $value = $userdata->user_login;
-                                                }
+                                                $value = $userdata->user_login;
                                             }
                                         break;
 
