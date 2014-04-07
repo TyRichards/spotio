@@ -11,7 +11,7 @@ $gray-lighter:          lighten(#000, 93.5%); // #eee
 
 // Color Conventions
 $brand-primary:         #234597; // #4D6387; // #6AA7D0;
-$brand-secondary:       #2980b9; // #428bca;
+$brand-secondary:       #90C4EC; // #428bca;
 $brand-success:         #5cb85c;
 $brand-info:            #3498db; // #5bc0de;
 $brand-warning:         #f0ad4e;
@@ -29,14 +29,20 @@ $link-hover-color:      darken($link-color, 15%);
 
 // Typography /////////////////////////////////////////////////////////////////
 
+// Font Weights
+$light: 300;
+$regular: 400;
+$bold: 900;
+
 // Font Families
-$font-family-sans-serif:    "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans-serif:    "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family-serif:         Georgia, "Times New Roman", Times, serif;
 $font-family-monospace:     Menlo, Monaco, Consolas, "Courier New", monospace;
 $font-family-base:          $font-family-sans-serif;
 
 // Font Sizes
 $font-size-base:        16px;
+$font-size-nav:         13px;
 $font-size-large:       ceil(($font-size-base * 1.25));
 $font-size-small:       ceil(($font-size-base * 0.85));
 
@@ -53,7 +59,7 @@ $line-height-computed: floor(($font-size-base * $line-height-base));
 
 // Heading Styles
 $headings-font-family:    inherit; //"Domine", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$headings-font-weight:    $regular;
+$headings-font-weight:    $light;
 $headings-line-height:    1.1;
 $h1-color:                $brand-primary !important;
 $headings-color:          $brand-dark;
@@ -314,7 +320,7 @@ $grid-gutter-width:         60px;
 // Components /////////////////////////////////////////////////////////////////
 
 // // Basics of a navbar
-$navbar-height:                    110px;
+$navbar-height:                    150px;
 // $navbar-margin-bottom:             $line-height-computed;
 $navbar-border-radius:             0px;
 // $navbar-padding-horizontal:        floor(($grid-gutter-width / 2));

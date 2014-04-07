@@ -10,7 +10,8 @@
 
 body header { 
     // @include dynamic-bg($header-bg-color); 
-    border-top: 10px solid $brand-primary;
+    border-top: 10px solid $brand-secondary;
+    position: relative;
 }
 
 // Top Header Section /////////////////////////////////////////////////////////////////

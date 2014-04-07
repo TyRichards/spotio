@@ -38,7 +38,7 @@ Template Name: Home
     </div>
 </section>
 
-<section class="primary-content">
+<section class="primary-content container">
     <div class="container">
         <section class="main-col page-content col-sm-7">
             <div id="main" class="site-main" role="main">
@@ -70,7 +70,7 @@ Template Name: Home
            </div>
         </section>
         <section class="sidebar-col sidebar-right sidebar col-sm-5">
-            <div class="col-sm-12 col-md-10 col-md-offset-2 col-no-padding">
+            <div class="col-sm-12 col-md-10 col-md-offset-2 col-no-padding-xs">
 <!--                 <?php 
                     if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
                     the_post_thumbnail('sidebar-thumb', array('class' => 'feature-image attachment-sidebar-thumb img-rounded' ));

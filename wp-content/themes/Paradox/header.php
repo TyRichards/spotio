@@ -45,12 +45,14 @@
 						<div class="container">						
 							<div class="navbar-header col-sm-4 col-lg-5">	
 								<div class="col-xs-10 col-md-12 col-no-padding">
-									<a class="navbar-brand col-no-padding" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home" width="100%">	
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="The Mattress Plus">							
-									</a>	
-									<p>						
-										<?php bloginfo('description'); ?> 						
-									</p>									
+									<div class="clearfix">
+										<a class="navbar-brand col-no-padding" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home" width="100%">	
+											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="The Mattress Plus">							
+										</a>
+									</div>									
+									<div class="clearfix">
+										<p class="text-center tagline"><?php bloginfo('description'); ?></p>
+									</div>									
 								</div>											
 								<div class="col-xs-2 nav-right col-no-padding-xs">
 									<button type="button" class="navbar-toggle navbar-right" data-toggle="collapse" data-target=".navbar-primary-collapse">
@@ -60,7 +62,7 @@
 										<span class="icon-bar"></span>									
 									</button>
 								</div>					
-							</div>
+							</div><!-- .navbar-header -->
 							
 							<div class="col-sm-8 col-lg-7 collapse navbar-collapse navbar-right navbar-primary-collapse">
 								<?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav navbar-left', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?> 
@@ -68,9 +70,19 @@
 									dynamic_sidebar('navbar-right'); 
 								} ?>     					
 							</div><!--.navbar-collapse-->
-						</div>
+						</div><!-- .container -->
 					</nav>				
 				</section> <!-- section-navbar -->
+		    <div class="contact-nav hidden-xs">
+			    <a class="btn btn-primary btn-sm" href="/schedule-inspection">
+						<i class="fa fa-phone fa-1x"></i>
+			    	(555) 555-5555
+			    </a> 
+			    <a class="btn btn-primary btn-sm" href="/schedule-inspection">
+						<i class="fa fa-map-marker fa-1x"></i>			    	
+			    	Locations
+			    </a> 
+		    </div>				
 			</header>		
 				
 				

@@ -57,7 +57,10 @@ border: 1px solid #dddddd;
 }
 
 header .navbar-brand {
-    padding-top: 15px;
+    padding-bottom: 0px;
+    height: auto;
+    display: block;
+    padding-top: 41px;
 
     img {
         width: 240px;
@@ -115,7 +118,27 @@ border-color: $btn-secondary-border;
 // Header Navigation Menus /////////////////////////////////////////////////////////////////
 
 .nav > .menu-item > a {
-    font-weight: 500;
+    font-weight: $bold;
+    text-transform: uppercase;
+    font-size: $font-size-nav;
+    letter-spacing: 1px;
+}
+
+header .contact-nav {
+    position: absolute;
+    top: -12px;
+    right: 60px;
+
+    a {
+        margin-left: 5px;
+    }
+}
+
+header .tagline {
+    font-size: 16px;
+    font-weight: 300;
+    
+    padding-top: 7px;
 }
 
 .navbar {
@@ -161,10 +184,9 @@ color: #ffffff!important;
 }
 
 .sub-menu .menu-item {
-    background: $brand-dark;
 
     a:hover {
-        color: #ffffff;
+        color: #ffffff!important;
     }
 }
 
@@ -253,30 +275,25 @@ h1, h2, h3, h4, h5, h6 {
 
 // Lists /////////////////////////////////////////////////////////////////
 
-.dropdown-menu {
-    @include border-radius(0px 0px 4px 4px);
+.nav .menu-item .dropdown-menu {
+    padding: 0px 0px;
+    @include border-radius(4px);
+    left: 10px;
+    top: 100px;
 
     li {
     display: list-item;
 
         a {
+            font-size: $font-size-nav;
             color: #cccccc;
+            padding: 10px 30px;            
+            border-top: 1px solid lighten($brand-dark, 5%);  
+            text-transform: uppercase;
+            letter-spacing: 1px;                        
         }
     }
-}
 
-
-
-.nav .menu-item .dropdown-menu {
-
-    .menu-item a {            
-            padding: 10px 30px;            
-            border-top: 1px solid lighten($brand-dark, 5%);            
-    }
-}
-
-.menu-item .dropdown-menu {
-    padding: 0px 0px;
 }
 
 .body-content {
