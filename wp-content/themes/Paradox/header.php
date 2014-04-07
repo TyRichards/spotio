@@ -74,11 +74,11 @@
 					</nav>				
 				</section> <!-- section-navbar -->
 		    <div class="contact-nav hidden-xs">
-			    <a class="btn btn-primary btn-sm" href="/schedule-inspection">
+			    <a class="btn btn-primary btn" href="/schedule-inspection">
 						<i class="fa fa-phone fa-1x"></i>
 			    	(555) 555-5555
 			    </a> 
-			    <a class="btn btn-primary btn-sm" href="/schedule-inspection">
+			    <a class="btn btn-primary btn" href="/schedule-inspection">
 						<i class="fa fa-map-marker fa-1x"></i>			    	
 			    	Locations
 			    </a> 

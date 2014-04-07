@@ -108,10 +108,8 @@ border-color: $btn-secondary-border;
 
 .social-btns {
     margin-top: $space-sm;
-
-    i {
-    margin: 0 8px 0 8px;
-    }
+    a { color: $gray-light; }
+    i { margin: 0 8px 0 8px; }
 }
 
 
@@ -134,10 +132,9 @@ header .contact-nav {
     }
 }
 
-header .tagline {
+.tagline {
     font-size: 16px;
-    font-weight: 300;
-    
+    font-weight: 300;    
     padding-top: 7px;
 }
 
@@ -210,7 +207,7 @@ color: #ffffff!important;
 // Small-Footer Navigation Menus /////////////////////////////////////////////////////////////////
 
 .footer-logo {
-    padding-bottom: $space-lg;
+    // padding-bottom: $space-lg;
     display: block;
 }
 
