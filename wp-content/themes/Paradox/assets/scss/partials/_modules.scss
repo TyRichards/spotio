@@ -76,6 +76,20 @@ header .navbar-brand {
 
 // Masthead /////////////////////////////////////////////////////////////////
 
+body .masthead .background {
+    opacity: 100;
+    filter: alpha(opacity=10000);
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.home .masthead .background {
+    background-image: image-url("bg-photo01.jpg");
+}
+
+.masthead h2 {
+    color: $h1-color;
+}
 
 // Sidebar Feature Image /////////////////////////////////////////////////////////////////
 
