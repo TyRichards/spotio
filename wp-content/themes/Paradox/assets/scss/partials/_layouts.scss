@@ -1,10 +1,16 @@
 // Body /////////////////////////////////////////////////////////////////
 
+.main-container {
+  @include box-shadow($gray-light 0px 0px 70px);
+  border-right: 1px solid $gray-lighter;
+  border-left: 1px solid $gray-lighter;
+}
+
 // Header /////////////////////////////////////////////////////////////////
 
-body > header { 
-    @include dynamic-bg($header-bg-color); 
-    // margin-bottom: -20px;
+body header { 
+    // @include dynamic-bg($header-bg-color); 
+    border-top: 10px solid $brand-primary;
 }
 
 // Top Header Section /////////////////////////////////////////////////////////////////
@@ -51,7 +57,8 @@ body > header {
 // Footer /////////////////////////////////////////////////////////////////
 
 .footer {
-    @include dynamic-bg($footer-bg-color);
+    // @include dynamic-bg($footer-bg-color);
+    background: $gray-lighter;
 }
 
 

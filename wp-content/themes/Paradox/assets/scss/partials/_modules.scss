@@ -52,6 +52,10 @@ border: 1px solid #dddddd;
     height: auto;
 }
 
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: 0px;
+}
+
 header .navbar-brand {
     padding-top: 15px;
 
@@ -69,11 +73,6 @@ header .navbar-brand {
 
 // Masthead /////////////////////////////////////////////////////////////////
 
-.clipboard-icon {
-    background: image-url('clipboard.png') no-repeat top left; 
-    padding-left: 120px;
-    min-height: 91px;
-}
 
 // Sidebar Feature Image /////////////////////////////////////////////////////////////////
 
@@ -218,7 +217,7 @@ color: #ffffff!important;
 // Headings /////////////////////////////////////////////////////////////////
 
 .body-content {
-    @include dynamic-headings-color($headings-color, $body-bg, $text-color); // If header color is same as bg, then darken text color
+    // @include dynamic-headings-color($headings-color, $body-bg, $text-color); // If header color is same as bg, then darken text color
 }
 
 h1, h2, h3, h4, h5, h6 {

@@ -58,11 +58,8 @@
 
 // Extra small devices only (phones, less than 768px)
 @media (max-width: $screen-xs-max) {
-
-    .clipboard-icon {        
-        padding-left: 109px;
-        padding-top: 13px;        
-    }
+    
+  
 
     .footer-logo {
         padding-bottom: $space-sm;
