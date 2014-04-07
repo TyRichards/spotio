@@ -43,7 +43,7 @@
 				<section class="top-navbar">				
 					<nav class="navbar navbar-default" role="navigation">
 						<div class="container">						
-							<div class="navbar-header col-sm-4 col-lg-5">	
+							<div class="navbar-header col-sm-4 col-md-5">	
 								<div class="col-xs-10 col-md-12 col-no-padding">
 									<div class="clearfix">
 										<a class="navbar-brand col-no-padding" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home" width="100%">	
@@ -64,7 +64,7 @@
 								</div>					
 							</div><!-- .navbar-header -->
 							
-							<div class="col-sm-8 col-lg-7 collapse navbar-collapse navbar-right navbar-primary-collapse">
+							<div class="col-sm-8 col-md-7 collapse navbar-collapse navbar-right navbar-primary-collapse">
 								<?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav navbar-left', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?> 
 								<?php if (is_active_sidebar('navbar-right')) { 								
 									dynamic_sidebar('navbar-right'); 
