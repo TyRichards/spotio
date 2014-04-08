@@ -10,10 +10,10 @@
 
 			<footer class="footer">
 				<section class="more-foot">
-			        <div class="container">
+			        <div class="container col-no-padding-xs">
 					    	
 					        <div class="col-sm-6 col-sm-offset-3 col-md-5 col-md-offset-0">
-										<div class="col-sm-12">
+										<div class="col-sm-12 col-no-padding-xs">
 											<div class="clearfix">
 							        	<a class="footer-logo" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
 								        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="Xstream Inspections Commercial & Residential Inspections" width="100%" alt="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">

@@ -14,7 +14,7 @@ Template Name: Home
         </div>        
         <div class="col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-0">
             <div class="col-sm-12 col-md-11 col-md-offset-1 col-no-padding">
-                <h2 class="clipboard-icon">The Largest Simmons Selection in the Southwest</h2>
+                <h2>The Largest Simmons Selection in the Southwest</h2>
                 <div class="col-xs-6 col-no-padding" style="padding-right:5px">
                     <a class="btn btn-success btn-block text-center" href="/commercial">Curv</a>
                 </div>                
@@ -30,8 +30,8 @@ Template Name: Home
     </div>
 </section>
 
-<section class="primary-content container">
-    <div class="container">
+<section class="primary-content">
+    <div class="container col-no-padding-xs">
         <section class="main-col page-content col-sm-7">
             <div id="main" class="site-main" role="main">
                 <?php
@@ -62,7 +62,7 @@ Template Name: Home
            </div>
         </section>
         <section class="sidebar-col sidebar-right sidebar col-sm-5">
-            <div class="col-sm-12 col-md-10 col-md-offset-2 col-no-padding-xs">
+            <div class="col-sm-12 col-md-10 col-md-offset-2 col-no-padding">
 <!--                 <?php 
                     if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
                     the_post_thumbnail('sidebar-thumb', array('class' => 'feature-image attachment-sidebar-thumb img-rounded' ));

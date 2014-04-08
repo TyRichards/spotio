@@ -43,18 +43,18 @@
 				<section class="top-navbar">				
 					<nav class="navbar navbar-default" role="navigation">
 						<div class="container">						
-							<div class="navbar-header col-sm-4 col-md-5">	
-								<div class="col-xs-10 col-md-12 col-no-padding">
+							<div class="navbar-header col-sm-4 col-md-5 col-no-padding-xs">	
+								<div class="brand col-xs-10 col-md-12 col-no-padding">
 									<div class="clearfix">
 										<a class="navbar-brand col-no-padding" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home" width="100%">	
 											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="The Mattress Plus">							
 										</a>
 									</div>									
-									<div class="clearfix">
+									<div class="clearfix hidden-xs">
 										<p class="text-center tagline"><?php bloginfo('description'); ?></p>
 									</div>									
 								</div>											
-								<div class="col-xs-2 nav-right col-no-padding-xs">
+								<div class="toggle col-xs-2 nav-right col-no-padding-xs">
 									<button type="button" class="navbar-toggle navbar-right" data-toggle="collapse" data-target=".navbar-primary-collapse">
 										<span class="sr-only"><?php _e('Toggle navigation', 'bootstrap-basic'); ?></span>
 										<span class="icon-bar"></span>
@@ -91,19 +91,19 @@
 				<!-- Mobile Landing Section -->
 				<section class="mobile-landing visible-xs col-xs-12">
 				    <div class="col-xs-6 col-no-padding-xs phone" style="padding-right:5px">
-					    <a class="btn btn-primary btn-lg btn-block" href="/schedule-inspection">
+					    <a class="btn btn-primary btn-lg btn-block" href="tel:5555555555">
 					        (555) 555-5555
 					    </a> 
 				    </div>
 				    <div class="col-xs-6 col-no-padding-xs phone" style="padding-left:5px">
-					    <a class="btn btn-primary btn-lg btn-block" href="/schedule-inspection">
+					    <a class="btn btn-primary btn-lg btn-block" href="tel:4444444444">
 					        (444) 444-4444
 					    </a> 
 				    </div>
 				    <div class="col-xs-12 col-no-padding-xs call-to-action">
-					    <a class="btn btn-danger btn-lg btn-block col-xs-12" href="/schedule-inspection" style="margin-top:0px">
-					        <i class="fa fa-envelope fa-1x"></i>
-					        Send a Message
+					    <a class="btn btn-success btn-lg btn-block col-xs-12" href="/locations" style="margin-top:0px">
+					        <i class="fa fa-map-marker fa-1x"></i>
+					        Locations
 					    </a>
 				    </div>
 				</section>			
