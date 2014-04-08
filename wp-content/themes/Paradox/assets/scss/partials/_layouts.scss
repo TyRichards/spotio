@@ -82,7 +82,7 @@ body header {
 
 .footer {
     // @include dynamic-bg($footer-bg-color);
-    background: $gray-lighter;
+    background: $footer-bg-color;
     border-top: 10px solid $brand-primary;
 }
 

@@ -21,7 +21,7 @@ $brand-dark:            #171717;
 // Scaffolding /////////////////////////////////////////////////////////////////
 $body-bg:               #ffffff; //#ecf0f1;
 $header-bg-color:       #ffffff;
-$footer-bg-color:       $header-bg-color;
+$footer-bg-color:       $gray-lighter;
 $text-color:            #7f8c8d;
 $link-color:            $brand-primary;
 $link-hover-color:      darken($link-color, 15%);

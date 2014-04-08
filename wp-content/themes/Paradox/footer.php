@@ -23,7 +23,7 @@
 												<p class="text-center tagline"><?php bloginfo('description'); ?></p>
 											</div>	
 							       	<div class="clearfix"></div>
-							        <div class="col-md-12">									   
+							        <div class="col-md-12 col-no-padding">									   
 				                <p class="social-btns text-center">				                	
 				                	<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
 				                	<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>

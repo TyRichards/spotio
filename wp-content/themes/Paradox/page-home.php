@@ -13,14 +13,16 @@ Template Name: Home
         <div class="col-sm-10 col-sm-offset-1 col-md-7 col-md-offset-0"> 
         </div>        
         <div class="col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-0">
-            <div class="col-sm-12 col-md-11 col-md-offset-1 col-no-padding">
-                <h2>The Largest Simmons Selection in the Southwest</h2>
-                <div class="col-xs-6 col-no-padding" style="padding-right:5px!important">
-                    <a class="btn btn-success btn-block text-center" href="/commercial">Curv</a>
-                </div>                
-                <div class="col-xs-6 col-no-padding" style="padding-left:5px!important">
-                    <a class="btn btn-success btn-block text-center" href="/residential">Beautyrest</a>
-                </div>
+            <div class="col-sm-12 col-no-padding">
+                <h2>The Largest Selection in the Southwest</h2>
+                <p>
+                    <div class="col-xs-6 col-no-padding" style="padding-right:5px!important">
+                        <a class="btn btn-success btn-block text-center" href="/commercial">Curv</a>
+                    </div>                
+                    <div class="col-xs-6 col-no-padding" style="padding-left:5px!important">
+                        <a class="btn btn-success btn-block text-center" href="/residential">Beautyrest</a>
+                    </div>
+                </p>
                 <div class="clearfix"></div>                
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem massa, varius sed enim non, ornare egestas velit. Curabitur at scelerisque ligula, ut ultricies diam. <a href="/about-us">Learn More</a>
