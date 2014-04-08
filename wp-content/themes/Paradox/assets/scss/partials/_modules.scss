@@ -42,6 +42,14 @@ iframe {
     @include border-radius($border-radius-img);
 }
 
+.label {
+    font-weight: $light;
+    padding: .2em .8em .3em;
+    font-size: 50%;
+    vertical-align: 40%;
+    text-transform: uppercase;
+}
+
 .body-content img {
 border: 1px solid #dddddd;
 }
@@ -102,7 +110,7 @@ body .masthead .background {
 // Buttons /////////////////////////////////////////////////////////////////
 
 .body-content .btn {
-margin: $paragraph-top-margin;
+margin-top: 5px;
 margin-bottom: 10px;
 }
 

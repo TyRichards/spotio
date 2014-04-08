@@ -27,12 +27,12 @@ Template Name: Single Column
 
                 } //endwhile;
                 ?> 
-                <a class="btn btn-danger" href="#">
+                <a class="btn btn-success" href="#">
                     <i class="fa fa-phone fa-1x"></i>
-                    Call (972) 492-7920
+                    Call (555) 555-5555
                 </a>
                     &nbsp;&nbsp;
-                <a class="btn btn-danger" href="/contact-us">
+                <a class="btn btn-success" href="/contact-us">
                     <i class="fa fa-envelope fa-1x"></i>
                     Email Us
                 </a> 

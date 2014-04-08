@@ -56,7 +56,7 @@
 											(555) 555-5555
 										</a>
 					          <a class="btn btn-primary btn-block" href="/schedule-inspection">
-											<i class="fa fa-calendar fa-1x"></i>
+											<i class="fa fa-map-marker fa-1x"></i>
 											Locations
 										</a>  										  								
 					      	</div>
