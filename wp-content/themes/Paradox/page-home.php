@@ -15,10 +15,10 @@ Template Name: Home
         <div class="col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-0">
             <div class="col-sm-12 col-md-11 col-md-offset-1 col-no-padding">
                 <h2>The Largest Simmons Selection in the Southwest</h2>
-                <div class="col-xs-6 col-no-padding" style="padding-right:5px">
+                <div class="col-xs-6 col-no-padding" style="padding-right:5px!important">
                     <a class="btn btn-success btn-block text-center" href="/commercial">Curv</a>
                 </div>                
-                <div class="col-xs-6 col-no-padding" style="padding-left:5px">
+                <div class="col-xs-6 col-no-padding" style="padding-left:5px!important">
                     <a class="btn btn-success btn-block text-center" href="/residential">Beautyrest</a>
                 </div>
                 <div class="clearfix"></div>                
@@ -54,11 +54,11 @@ Template Name: Home
                     <i class="fa fa-phone fa-1x"></i>
                     Call (555) 555-5555
                 </a>
-                    
-                <a class="btn btn-success" href="/contact-us">
-                    <i class="fa fa-envelope fa-1x"></i>
-                    Email Us
-                </a>                  
+                    &nbsp;&nbsp;
+                <a class="btn btn-success" href="/locations">
+                    <i class="fa fa-map-marker fa-1x"></i>
+                    Locations
+                </a>             
            </div>
         </section>
         <section class="sidebar-col sidebar-right sidebar col-sm-5">

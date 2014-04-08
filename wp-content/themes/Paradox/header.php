@@ -42,8 +42,8 @@
 			<header>			
 				<section class="top-navbar">				
 					<nav class="navbar navbar-default" role="navigation">
-						<div class="container">						
-							<div class="navbar-header col-sm-4 col-md-5 col-no-padding-xs">	
+						<div class="container col-no-padding-xs">						
+							<div class="navbar-header col-sm-4 col-md-5">	
 								<div class="brand col-xs-10 col-md-12 col-no-padding">
 									<div class="clearfix">
 										<a class="navbar-brand col-no-padding" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home" width="100%">	

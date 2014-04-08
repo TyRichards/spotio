@@ -82,6 +82,27 @@
         display: block;
     }    
 
+    header .navbar-nav .menu-item {
+        a { 
+            border-top: 1px solid $gray-lighter;
+        } 
+        .dropdown-menu li a { 
+            border-top: 1px solid $gray-lighter; 
+            background-color: $gray-lighter;
+        }    
+        .dropdown-menu li a:hover { 
+            color: $navbar-default-link-hover-color !important; 
+            background-color: $gray-lighter !important; 
+        }            
+    }
+
+    header #menu-main-menu { text-align: center; }    
+
+    .navbar-nav li > a.dropdown-toggle, 
+    .navbar-nav li > a.dropdown-toggle:hover { 
+        border-color: $gray-lighter!important; 
+    }  
+
     .logos .container div {
         padding: 10px 75px;
     }    

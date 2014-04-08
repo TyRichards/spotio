@@ -32,10 +32,10 @@ Template Name: Single Column
                     Call (555) 555-5555
                 </a>
                     &nbsp;&nbsp;
-                <a class="btn btn-success" href="/contact-us">
-                    <i class="fa fa-envelope fa-1x"></i>
-                    Email Us
-                </a> 
+                <a class="btn btn-success" href="/locations">
+                    <i class="fa fa-map-marker fa-1x"></i>
+                    Locations
+                </a>
             </div>           
         </section>               
     </div>
