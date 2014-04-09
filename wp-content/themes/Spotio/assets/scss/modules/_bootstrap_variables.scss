@@ -4,10 +4,17 @@
 
 // Grays
 $gray-darker:           lighten(#000, 10%); // #222
-$gray-dark:             lighten(#000, 20%);   // #333
+$gray-dark:             lighten(#000, 25%);   // #333
 $gray:                  lighten(#000, 33.5%); // #555
 $gray-light:            lighten(#000, 60%);   // #999
-$gray-lighter:          lighten(#000, 93.5%); // #eee
+$gray-lighter:          lighten(#000, 90%); // #eee
+
+// Logo 
+
+$logo-md-width:         193px;
+$logo-xs-width:         156px;
+$logo-sm-width:         $logo-md-width;
+$logo-lg-width:         $logo-md-width;
 
 // Color Conventions
 $brand-primary:         #f39c12;
@@ -81,10 +88,10 @@ $icon-font-svg-id:        "glyphicons_halflingsregular";
 
 // Components /////////////////////////////////////////////////////////////////
 
-$padding-base-vertical:     8px;
-$padding-base-horizontal:   30px;
+$padding-base-vertical:     6px;
+$padding-base-horizontal:   20px;
 
-$padding-large-vertical:    ($padding-base-vertical * 1.5);
+$padding-large-vertical:    ($padding-base-vertical * 2);
 $padding-large-horizontal:  ($padding-base-horizontal * 1.4);
 
 $padding-small-vertical:    ($padding-base-vertical * 0.5);
@@ -277,8 +284,8 @@ $dropdown-link-active-bg:        inherit;
 
 // // Medium screen / desktop
 // // Note: Deprecated $screen-md and $screen-desktop as of v3.0.1
-// $screen-md:                  992px;
-// $screen-md-min:              $screen-md;
+$screen-md:                  992px;
+$screen-md-min:              $screen-md;
 // $screen-desktop:             $screen-md-min;
 
 // // Large screen / wide desktop
@@ -303,7 +310,7 @@ $dropdown-link-active-bg:        inherit;
 $grid-gutter-width:         30px;
 // // Navbar collapse
 // //** Point at which the navbar becomes uncollapsed.
-// $grid-float-breakpoint:     $screen-sm-min;
+$grid-float-breakpoint:     $screen-md-min;
 // //** Point at which the navbar begins collapsing.
 // $grid-float-breakpoint-max: ($grid-float-breakpoint - 1);
 
@@ -344,10 +351,10 @@ $navbar-default-border:            transparent; // darken($navbar-default-bg, 10
 
 // // Navbar links
 $navbar-default-link-color:                $gray-light; // lighten($header-bg-color, 55%);
-$navbar-default-link-hover-color:          darken($navbar-default-link-color, 25%);
+$navbar-default-link-hover-color:          lighten($navbar-default-link-color, 50%);
 $navbar-default-link-open-color:           $navbar-default-link-hover-color;
 // $navbar-default-link-hover-bg:             transparent;
-$navbar-default-link-active-color:         $brand-primary;
+$navbar-default-link-active-color:         lighten($navbar-default-link-color, 50%) ;
 $navbar-default-link-active-bg:            transparent;
 // $navbar-default-link-disabled-color:       #ccc;
 // $navbar-default-link-disabled-bg:          transparent;
@@ -359,7 +366,7 @@ $navbar-default-link-active-bg:            transparent;
 
 // // Navbar toggle
 $navbar-default-toggle-hover-bg:           transparent;
-$navbar-default-toggle-icon-bar-bg:        $brand-primary;
+$navbar-default-toggle-icon-bar-bg:        $navbar-default-link-color;
 $navbar-default-toggle-border-color:       transparent;
 
 

@@ -3,10 +3,15 @@
 .container {
     z-index: 2;
 }
+
+.vert-align {
+  @include vertical-align;
+}
+
 // Header /////////////////////////////////////////////////////////////////
 
 body header { 
-    // @include dynamic-bg($header-bg-color);   
+    background-color: $header-bg-color;   
     position: relative;
 }
 

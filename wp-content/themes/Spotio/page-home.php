@@ -10,22 +10,44 @@ Template Name: Home
 <section class="masthead">
     <div class="background">&nbsp;</div>
     <div class="container col-no-padding-xs">        
-        <div class="col-sm-10 col-sm-offset-1 col-md-7 col-md-offset-0"> 
-        </div>        
-        <div class="col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-0">
+        <div class="col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-7 col-no-padding">
             <div class="col-sm-12 col-no-padding">
                 <h2><i>The</i> App for Tracking Door-to-Door Sales</h2>
-                <p>
-                    <div class="col-xs-6 col-no-padding" style="padding-right:5px!important">
-                        <a class="btn btn-lg btn-primary btn-block text-center" href="/commercial">Curv</a>
-                    </div>                
-                    <div class="col-xs-6 col-no-padding" style="padding-left:5px!important">
-                        <a class="btn btn-lg btn-clear btn-block text-center" href="/residential">Beautyrest</a>
+                <div class="icon-section">
+                    <div class="icon-sections clearfix">
+                        <div class="col-xs-2 text-center vert-align col-no-padding">
+                            <i class="fa fa-map-marker fa-3x"></i>
+                        </div>
+                        <div class="col-xs-10 vert-align">
+                            Maps & reports that keep you in the know 
+                        </div>
                     </div>
-                </p>
-                <div class="clearfix"></div>                
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem massa, varius sed enim non, ornare egestas velit. Curabitur at scelerisque ligula, ut ultricies diam. <a href="/about-us">Learn More</a>
+                    <div class="icon-sections clearfix">
+                        <div class="col-xs-2 text-center vert-align col-no-padding">
+                            <i class="fa fa-arrow-circle-right fa-3x"></i>
+                        </div>
+                        <div class="col-xs-10 vert-align">
+                            Fast and easy to use
+                        </div>
+                    </div>
+                    <div class="icon-sections clearfix">   
+                        <div class="col-xs-2 text-center vert-align col-no-padding">             
+                            <i class="fa fa-laptop fa-2x"></i><i class="fa fa-mobile fa-2x"></i>
+                        </div>
+                        <div class="col-xs-10 vert-align">
+                            Made for mobile & desktop
+                        </div>
+                    </div>                
+                </div>
+                <p>                    
+                    <a class="btn btn-lg btn-primary btn-block text-center" href="http://login.icanvassapp.com/Account/Register">
+                        Start Free Trial
+                        <i class="fa fa-arrow-circle-right"></i>
+                    </a>
+                    <a class="btn btn-lg btn-clear btn-block text-center" href="/features">
+                        How It Works
+                        <i class="fa fa-play-circle"></i>
+                    </a>                                    
                 </p>
             </div>
         </div>        

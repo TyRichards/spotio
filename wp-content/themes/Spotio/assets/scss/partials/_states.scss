@@ -6,6 +6,11 @@
 // Small devices (tablets, 768px and up)
 @media (min-width: $screen-sm-min) {
 
+    header .collapse .call-to-action {
+        padding-left: $grid-gutter-width;
+        padding-right: 0;
+    }
+
     .masthead {
         background-color: $gray-lighter;
     }
@@ -29,17 +34,12 @@
         .footer-menu .menu li a {
             padding-right: $space-sm;
         }
-    }
-
+    }     
 
 }
 
 // Medium devices (desktops, 992px and up)
 @media (min-width: $screen-md-min) {
-
-    header .navbar-brand img {
-        width: 100%;
-    }    
 
     .logos .container .cred-logo {
         padding-left: 30px;
@@ -52,16 +52,24 @@
         border: 4px solid $hr-border;
     }    
 
+    header .navbar-form {
+        margin-top: ($navbar-height * 0.35 );
+        margin-top: ($navbar-height * 0.35 );
+    }
+
+    .footer-logo, .footer .social-btns {
+        text-align: left;
+    }        
+
 }
 
 // Exclusive Media Queries /////////////////////////////////////////////////////////////////
 
 // Extra small devices only (phones, less than 768px)
-@media (max-width: $screen-xs-max) {
-    
-    .container, .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
-      padding-left: 15px;
-      padding-right: 15px;
+@media (max-width: $screen-xs-max) {        
+
+    header .brand .navbar-brand img {
+    width: $logo-xs-width;
     }    
 
     .container > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
@@ -69,7 +77,7 @@
     margin-left: inherit;
     }    
 
-    header .navbar-brand { padding-top: 20px; }    
+    header .navbar-brand { padding-top: 16px; }    
 
     .navbar-toggle { margin-top: 12px; margin-bottom: 12px; }
 
@@ -78,25 +86,8 @@
     .masthead .background { display: none; }
 
     .footer-logo {
-        padding-bottom: $space-sm;
         display: block;
-    }    
-
-    header .navbar-nav .menu-item {
-        a { 
-            border-top: 1px solid $gray-lighter;
-        } 
-        .dropdown-menu li a { 
-            border-top: 1px solid $gray-lighter; 
-            background-color: $gray-lighter;
-        }    
-        .dropdown-menu li a:hover { 
-            color: $navbar-default-link-hover-color !important; 
-            background-color: $gray-lighter !important; 
-        }            
-    }
-
-    header #menu-main-menu { text-align: center; }    
+    }     
 
     .navbar-nav li > a.dropdown-toggle, 
     .navbar-nav li > a.dropdown-toggle:hover { 
@@ -148,16 +139,10 @@
         padding-left: 0px;
         padding-right: 0px;
     }        
-    
-    .navbar-header .navbar-brand {
-        width: 100%;
-    }
 
     .no-float-xs {
         float: none!important;
     }
-
-
 
 }
 
@@ -200,4 +185,25 @@
     .no-float-lg {
         float: none!important;
     }      
+}
+
+
+// Extra small devices only (phones, less than 768px)
+@media (max-width: $screen-sm-min) {    
+
+    header .navbar-nav .menu-item {
+        a { 
+            border-top: 1px solid lighten($header-bg-color, 15%);
+        } 
+        .dropdown-menu li a { 
+            border-top: 1px solid $gray-lighter; 
+            background-color: $gray-lighter;
+        }    
+        .dropdown-menu li a:hover { 
+            color: $navbar-default-link-hover-color !important; 
+            background-color: $gray-lighter !important; 
+        }            
+    }
+
+    header #menu-main-menu { text-align: center; }   
 }

@@ -16,12 +16,12 @@
 										<div class="col-sm-12 col-no-padding-xs">
 											<div class="clearfix">
 							        	<a class="footer-logo" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
-								        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="Xstream Inspections Commercial & Residential Inspections" width="100%" alt="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
+								        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
 								        </a>
 							      	</div>
-											<div class="clearfix">
+<!-- 											<div class="clearfix">
 												<p class="text-center tagline"><?php bloginfo('description'); ?></p>
-											</div>	
+											</div>	 -->
 							       	<div class="clearfix"></div>
 							        <div class="col-md-12 col-no-padding">									   
 				                <p class="social-btns text-center">				                	
@@ -52,12 +52,11 @@
 				          </div>					        
 					        <div class="col-sm-6 col-md-3">
 					          <a class="btn btn-primary btn-block" href="/schedule-inspection">
-											<i class="fa fa-phone fa-1x"></i>
-											(555) 555-5555
+											<i class="fa fa-arrow-circle-right"></i>
+											Start Free Trial
 										</a>
-					          <a class="btn btn-primary btn-block" href="/schedule-inspection">
-											<i class="fa fa-map-marker fa-1x"></i>
-											Locations
+					          <a class="btn btn-clear btn-block" href="/schedule-inspection">											
+											Sign In
 										</a>  										  								
 					      	</div>
 					   		

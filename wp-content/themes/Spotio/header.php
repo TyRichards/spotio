@@ -43,32 +43,33 @@
 				<section class="top-navbar">				
 					<nav class="navbar navbar-default" role="navigation">
 						<div class="container col-no-padding-xs">						
-							<div class="navbar-header col-sm-3">	
-								<div class="brand col-xs-10 col-md-12 col-no-padding">
-									<div class="col-md-11 col-lg-9 col-no-padding clearfix">
-										<a class="navbar-brand col-no-padding" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home" width="100%">	
-											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="The Mattress Plus">							
-										</a>
-									</div>																	
-								</div>											
-								<div class="toggle col-xs-2 nav-right col-no-padding-xs">
+							<div class="col-md-3 container navbar-header col-no-padding-md col-no-padding-lg">	
+								<div class="brand nav-left col-no-padding">									
+										<a class="navbar-brand col-no-padding" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">	
+											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="Spotio">
+										</a>									
+								</div>																			
 									<button type="button" class="navbar-toggle navbar-right" data-toggle="collapse" data-target=".navbar-primary-collapse">
 										<span class="sr-only"><?php _e('Toggle navigation', 'bootstrap-basic'); ?></span>
 										<span class="icon-bar"></span>
 										<span class="icon-bar"></span>
 										<span class="icon-bar"></span>									
 									</button>
-								</div>					
+								
 							</div><!-- .navbar-header -->
 							
-							<div class="col-sm-9 collapse navbar-collapse navbar-right navbar-primary-collapse">
+							<div class="col-md-9 collapse navbar-collapse navbar-right navbar-primary-collapse col-no-padding">
 								<?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav navbar-left', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?> 
 								<?php if (is_active_sidebar('navbar-right')) { 								
 									dynamic_sidebar('navbar-right'); 
-								} ?>     		
-								<form class="navbar-form pull-left">
-                        <a class="btn btn-primary" href="#">Start Free Trial</a>
-                        <a class="btn btn-clear" href="#">Sign In</a>
+								} ?>  
+								<ul id="menu-main-menu" class="nav navbar-nav navbar-left visible-xs visible-sm ">
+									<li class="menu-item"><a href="http://login.icanvassapp.com/Account/Login">Sign In</a></li>
+								</ul>   		
+								<form class="container navbar-form pull-right call-to-action hidden-xs hidden-sm">
+                  <a class="btn btn-sm btn-primary " href="http://login.icanvassapp.com/Account/Register">Start Free Trial</a>
+                  &nbsp;
+                  <a class="btn btn-sm btn-clear" href="http://login.icanvassapp.com/Account/Register">Sign In</a>
                 </form>			
 							</div><!--.navbar-collapse-->
 						</div><!-- .container -->
@@ -80,21 +81,11 @@
 			<div class="body-content">
 
 				<!-- Mobile Landing Section -->
-				<section class="mobile-landing visible-xs col-xs-12">
-				    <div class="col-xs-6 col-no-padding-xs phone" style="padding-right:5px">
-					    <a class="btn btn-primary btn-lg btn-block" href="tel:5555555555">
-					        (555) 555-5555
-					    </a> 
-				    </div>
-				    <div class="col-xs-6 col-no-padding-xs phone" style="padding-left:5px">
-					    <a class="btn btn-primary btn-lg btn-block" href="tel:4444444444">
-					        (444) 444-4444
-					    </a> 
-				    </div>
-				    <div class="col-xs-12 col-no-padding-xs call-to-action">
-					    <a class="btn btn-success btn-lg btn-block col-xs-12" href="/locations" style="margin-top:0px">
-					        <i class="fa fa-map-marker fa-1x"></i>
-					        Locations
+				<section class="mobile-landing visible-xs visible-sm col-xs-12">
+				    <div class="col-xs-12 col-no-padding-xs col-no-padding-sm call-to-action">
+					    <a class="btn btn-primary btn-block col-xs-12" href="http://login.icanvassapp.com/Account/Register" style="margin-top:0px">
+					        <i class="fa fa-arrow-circle-right fa-1x"></i>
+					        Start Free Trial
 					    </a>
 				    </div>
 				</section>			
