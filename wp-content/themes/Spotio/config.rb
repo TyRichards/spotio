@@ -2,6 +2,16 @@
 require 'fileutils'
 require 'bootstrap-sass'
 
+# get the name of your theme folder
+WP_THEME_FOLDER = File.basename(File.dirname(__FILE__))
+ 
+module Sass::Script::Functions
+  # new function to putput the theme folder for use in style.scss
+  def wp_theme_name()
+    Sass::Script::String.new(WP_THEME_FOLDER)
+  end
+end
+
 
 # Directory Settings
 http_path = "/"
@@ -9,7 +19,7 @@ css_dir = "assets/css"
 sass_dir = "assets/scss"
 javascripts_dir = "assets/js"
 fonts_dir = "assets/fonts"
-http_images_path = "/wp-content/themes/Paradox/assets/images/"
+http_images_path = "/wp-content/themes/Spotio/assets/images/"
 # images_dir = "assets/images"
 
 
@@ -27,12 +37,3 @@ on_stylesheet_saved do |file|
 end
 
 
-# get the name of your theme folder
-WP_THEME_FOLDER = File.basename(File.dirname(__FILE__))
- 
-module Sass::Script::Functions
-  # new function to putput the theme folder for use in style.scss
-  def wp_theme_name()
-    Sass::Script::String.new(WP_THEME_FOLDER)
-  end
-end

@@ -1,7 +1,7 @@
 .htaccess
 wp-config.php
-wp-content/themes/Paradox/config.codekit
-wp-content/themes/Paradox/.sass-cache/**
+wp-content/themes/Spotio/config.codekit
+wp-content/themes/Spotio/.sass-cache/**
 
 
 

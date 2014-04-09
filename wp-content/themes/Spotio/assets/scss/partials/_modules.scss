@@ -68,7 +68,7 @@ header .navbar-brand {
     padding-bottom: 0px;
     height: auto;
     display: block;
-    padding-top: 41px;
+    padding-top: ($navbar-height / 3.2);
 
     img {
         width: 240px;
@@ -95,10 +95,6 @@ body .masthead .background {
     background-image: image-url("bg-photo01.jpg");
 }
 
-.masthead h2 {
-    color: $h1-color;
-}
-
 // Sidebar Feature Image /////////////////////////////////////////////////////////////////
 
 .sidebar-col .attachment-sidebar-thumb {
@@ -112,6 +108,25 @@ body .masthead .background {
 }
 
 // Buttons /////////////////////////////////////////////////////////////////
+
+.btn, .gform_button {
+    text-transform: $btn-case;
+}
+
+.btn-clear {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: none;
+    border: 2px solid $brand-clear;
+    color: $brand-clear;
+    padding: ($padding-base-vertical - 1) $padding-base-horizontal;
+}
+
+.btn-clear:hover {
+    background-color: $brand-clear;
+    color: $btn-clear-hover-color;
+}
 
 .body-content .btn {
 margin-top: 5px;
@@ -142,20 +157,10 @@ border-color: $btn-secondary-border;
 // Header Navigation Menus /////////////////////////////////////////////////////////////////
 
 .nav > .menu-item > a {
-    font-weight: $bold;
+    font-weight: $navbar-font-weight;
     text-transform: uppercase;
     font-size: $font-size-nav;
     letter-spacing: 1px;
-}
-
-header .contact-nav {
-    position: absolute;
-    top: -12px;
-    right: 60px;
-
-    a {
-        margin-left: 5px;
-    }
 }
 
 .tagline {

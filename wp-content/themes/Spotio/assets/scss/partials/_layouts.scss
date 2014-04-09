@@ -1,20 +1,12 @@
 // Body /////////////////////////////////////////////////////////////////
 
-.main-container {
-  @include box-shadow($gray-light 0px 0px 70px);
-  border-right: 1px solid $gray-lighter;
-  border-left: 1px solid $gray-lighter;
-}
-
 .container {
     z-index: 2;
 }
 // Header /////////////////////////////////////////////////////////////////
 
 body header { 
-    // @include dynamic-bg($header-bg-color); 
-    border-top: 10px solid $brand-primary;
-    border-bottom: 1px solid $gray-lighter;   
+    // @include dynamic-bg($header-bg-color);   
     position: relative;
 }
 

@@ -37,22 +37,19 @@
 
 		<?php do_action('before'); ?> 
 		
-		<div class="container main-container col-no-padding">
+		<div class="main-container col-no-padding">
 
 			<header>			
 				<section class="top-navbar">				
 					<nav class="navbar navbar-default" role="navigation">
 						<div class="container col-no-padding-xs">						
-							<div class="navbar-header col-sm-4 col-md-5">	
+							<div class="navbar-header col-sm-3">	
 								<div class="brand col-xs-10 col-md-12 col-no-padding">
-									<div class="clearfix">
+									<div class="col-md-11 col-lg-9 col-no-padding clearfix">
 										<a class="navbar-brand col-no-padding" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home" width="100%">	
 											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="The Mattress Plus">							
 										</a>
-									</div>									
-									<div class="clearfix hidden-xs">
-										<p class="text-center tagline"><?php bloginfo('description'); ?></p>
-									</div>									
+									</div>																	
 								</div>											
 								<div class="toggle col-xs-2 nav-right col-no-padding-xs">
 									<button type="button" class="navbar-toggle navbar-right" data-toggle="collapse" data-target=".navbar-primary-collapse">
@@ -64,25 +61,19 @@
 								</div>					
 							</div><!-- .navbar-header -->
 							
-							<div class="col-sm-8 col-md-7 collapse navbar-collapse navbar-right navbar-primary-collapse">
+							<div class="col-sm-9 collapse navbar-collapse navbar-right navbar-primary-collapse">
 								<?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav navbar-left', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?> 
 								<?php if (is_active_sidebar('navbar-right')) { 								
 									dynamic_sidebar('navbar-right'); 
-								} ?>     					
+								} ?>     		
+								<form class="navbar-form pull-left">
+                        <a class="btn btn-primary" href="#">Start Free Trial</a>
+                        <a class="btn btn-clear" href="#">Sign In</a>
+                </form>			
 							</div><!--.navbar-collapse-->
 						</div><!-- .container -->
 					</nav>				
-				</section> <!-- section-navbar -->
-		    <div class="contact-nav hidden-xs">
-			    <a class="btn btn-primary btn" href="tel:5555555555">
-						<i class="fa fa-phone fa-1x"></i>
-			    	(555) 555-5555
-			    </a> 
-			    <a class="btn btn-primary btn" href="/locations">
-						<i class="fa fa-map-marker fa-1x"></i>			    	
-			    	Locations
-			    </a> 
-		    </div>				
+				</section> <!-- section-navbar -->			
 			</header>		
 				
 				
