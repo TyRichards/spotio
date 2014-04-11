@@ -4,7 +4,7 @@
 
 // Grays
 $gray-darker:           lighten(#000, 10%); // #222
-$gray-dark:             lighten(#000, 25%);   // #333
+$gray-dark:             lighten(#000, 15%);   // #333
 $gray:                  lighten(#000, 33.5%); // #555
 $gray-light:            lighten(#000, 60%);   // #999
 $gray-lighter:          lighten(#000, 90%); // #eee
@@ -27,7 +27,7 @@ $brand-danger:          #c0392b;
 $brand-dark:            #171717;
 
 // Scaffolding /////////////////////////////////////////////////////////////////
-$body-bg:               $gray-darker; //#ecf0f1;
+$body-bg:               $gray-dark; //#ecf0f1;
 $header-bg-color:       $gray-darker;
 $footer-bg-color:       $gray-darker;
 $text-color:            $gray-light;

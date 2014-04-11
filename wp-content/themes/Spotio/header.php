@@ -67,7 +67,9 @@
 									<li class="menu-item"><a href="http://login.icanvassapp.com/Account/Login">Sign In</a></li>
 								</ul>   		
 								<form class="container navbar-form pull-right call-to-action hidden-xs hidden-sm">
-                  <a class="btn btn-sm btn-primary " href="http://login.icanvassapp.com/Account/Register">Start Free Trial</a>
+                  <a class="btn btn-sm btn-primary " href="http://login.icanvassapp.com/Account/Register">
+                  	Start Free Trial										
+                  </a>
                   &nbsp;
                   <a class="btn btn-sm btn-clear" href="http://login.icanvassapp.com/Account/Register">Sign In</a>
                 </form>			

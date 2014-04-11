@@ -51,9 +51,9 @@
 					                </ul> -->
 				          </div>					        
 					        <div class="col-sm-6 col-md-3">
-					          <a class="btn btn-primary btn-block" href="/schedule-inspection">
-											<i class="fa fa-arrow-circle-right"></i>
+					          <a class="btn btn-primary btn-block" href="/schedule-inspection">											
 											Start Free Trial
+											<i class="fa fa-right fa-arrow-circle-right"></i>
 										</a>
 					          <a class="btn btn-clear btn-block" href="/schedule-inspection">											
 											Sign In

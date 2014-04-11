@@ -1,0 +1,6 @@
+// Buttons
+@import "btn/*.png";
+@include all-btn-sprites;
+$btn-sprite-padding: 5px;
+$btn-sprite-height: btn-sprite-height(appstore);
+$btn-sprite-width: btn-sprite-width(appstore);
