@@ -77,6 +77,10 @@ $headings-color:          #fff;
 $navbar-font-weight:      $regular;
 $btn-case:                uppercase;
 
+// Image Sizes
+$img-thumb:               150px;
+$img-content:               300px;
+$img-sidebar:               700px;
 
 //-- Iconography
 //
@@ -147,7 +151,7 @@ $caret-width-large:         5px;
 // $btn-default-bg:                 #fff;
 // $btn-default-border:             #ccc;
 
-// $btn-primary-color:              #fff;
+// $btn-primary-color:              $gray-darker;
 // $btn-primary-bg:                 $brand-primary;
 // $btn-primary-border:             darken($btn-primary-bg, 5%);
 

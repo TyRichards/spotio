@@ -62,7 +62,22 @@ body header {
 
 // Primary Content Section /////////////////////////////////////////////////////////////////
 
-.primary-content {
+.primary-content, .section, .section-md {
+    padding-top: $space-lg;
+    padding-bottom: $space-lg;
+}
+
+.section-xs {
+    padding-top: $space-xs;
+    padding-bottom: $space-xs;
+}
+
+.section-sm {
+    padding-top: $space-sm;
+    padding-bottom: $space-sm;
+}
+
+.section-lg {
     padding-top: $space-lg;
     padding-bottom: $space-lg;
 }

@@ -50,8 +50,11 @@ iframe {
     text-transform: uppercase;
 }
 
-.body-content img {
-border: 1px solid #dddddd;
+.primary-content, .sidebar {
+
+    img {
+    border: 1px solid #dddddd;
+    }
 }
 
 .primary-content img {
@@ -77,11 +80,24 @@ header .navbar-brand {
 }    
 
 .btn-sprite {
-  height:$btn-sprite-height;
-  width:$btn-sprite-width;
+  height:$btn-sprite-height + 4;
+  width:$btn-sprite-width + 4;
   margin: 0 8px;
   display: inline-block;
 }
+
+.circle {
+    @include border-radius(400px);
+}
+
+// Images /////////////////////////////////////////////////////////////////
+
+.img-thumb {
+    width: $img-thumb;
+    height: $img-thumb;
+    border: 3px solid $gray-darker;
+}
+
 
 // Masthead /////////////////////////////////////////////////////////////////
 
@@ -95,7 +111,12 @@ header .navbar-brand {
         bottom: -25px;
         height: 49px;
         width: auto;
-        margin-left: -147px;        
+        margin-left: -147px;    
+
+        div {        
+            border: 2px solid $gray-dark;
+            @include border-radius(8px);
+        }    
     }
 }
 
@@ -109,6 +130,21 @@ body .masthead .background {
 .icon-section {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.section-sm {
+
+    p, span, h1, h2, h3, h4, h5, h6 {
+        color: $gray-darker;
+    }
+
+    h4 {
+        margin-top: 11px;
+    }
+}
+
+#btn-action {
+    margin-bottom: 0;
 }
 
 .icon-sections {
@@ -168,6 +204,31 @@ body .masthead .background {
     color: $btn-clear-hover-color;
 }
 
+.bg-primary {
+    .btn-clear {
+        border: 2px solid $gray-darker;
+        color: $gray-darker;
+        padding: ($padding-base-vertical - 1) $padding-base-horizontal;
+    }
+
+    .btn-lg.btn-clear {
+        padding: ($padding-large-vertical - 1) $padding-large-horizontal;
+    }
+
+    .btn-sm.btn-clear {
+        padding: ($padding-small-vertical - 1) $padding-small-horizontal;
+    }
+
+    .btn-xs.btn-clear {
+        padding: ($padding-xs-vertical - 0.5) $padding-xs-horizontal;
+    }
+
+    .btn-clear:hover {
+        background-color: $gray-darker;
+        color: $brand-primary;
+    }    
+}
+
 .body-content .btn {
 margin-top: 5px;
 margin-bottom: 10px;
@@ -178,12 +239,22 @@ margin-bottom: 10px;
 }
 
 .fa-right {
-margin-left: 15px;
+margin-left: 10px;
 }
 
 .fa-left {
-margin-right: 15px;
+margin-right: 10px;
 }
+
+.btn-right {
+margin-left: 60px;
+}
+
+.btn-left {
+margin-right: 60px;
+}
+
+
 
 .btn-secondary {
 color: $btn-secondary-color;
@@ -338,7 +409,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0px;
 }
 
-.site-main {
+.primary-content {
     h2, h3, h4, h5, h6 {
         margin: $paragraph-top-margin;
         margin-bottom: 0px;
@@ -426,9 +497,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .logos {
     background: $header-bg-color;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    border-bottom: 1px solid darken($body-bg, 10%); 
+    padding-top: 80px;
+    padding-bottom: 85px;
+    // border-bottom: 1px solid darken($body-bg, 10%); 
 
     p {
         text-transform: uppercase;
@@ -541,4 +612,19 @@ background: #000000;
 
 .flex-video.widescreen {
     padding-bottom: 56%;
+}
+
+
+// Reviews ////////////////////
+
+.reviews {
+
+    h5 {
+        margin-top: $space-sm;
+    }
+
+    .reviews-row {
+        margin-top: $space-lg;
+    }
+
 }

@@ -9954,8 +9954,8 @@ body header {
 
 /* line 29, ../scss/partials/_layouts.scss */
 .masthead {
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   position: relative;
 }
 
@@ -9984,34 +9984,52 @@ body header {
 }
 
 /* line 65, ../scss/partials/_layouts.scss */
-.primary-content {
-  padding-top: 75px;
-  padding-bottom: 75px;
+.primary-content, .section, .section-md {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-/* line 72, ../scss/partials/_layouts.scss */
+/* line 70, ../scss/partials/_layouts.scss */
+.section-xs {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 75, ../scss/partials/_layouts.scss */
+.section-sm {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* line 80, ../scss/partials/_layouts.scss */
+.section-lg {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* line 87, ../scss/partials/_layouts.scss */
 .main-col {
   padding-bottom: 10px;
 }
 
-/* line 80, ../scss/partials/_layouts.scss */
+/* line 95, ../scss/partials/_layouts.scss */
 .footer {
   background: #1a1a1a;
   border-top: 10px solid #f39c12;
 }
 
-/* line 88, ../scss/partials/_layouts.scss */
+/* line 103, ../scss/partials/_layouts.scss */
 .more-foot {
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-/* line 95, ../scss/partials/_layouts.scss */
+/* line 110, ../scss/partials/_layouts.scss */
 .small-footer {
   border-top: 1px solid black;
   padding: 25px 0;
 }
-/* line 99, ../scss/partials/_layouts.scss */
+/* line 114, ../scss/partials/_layouts.scss */
 .small-footer ul, .small-footer ol, .small-footer p {
   margin-bottom: 0;
 }
@@ -10078,12 +10096,12 @@ iframe {
   text-transform: uppercase;
 }
 
-/* line 53, ../scss/partials/_modules.scss */
-.body-content img {
+/* line 55, ../scss/partials/_modules.scss */
+.primary-content img, .sidebar img {
   border: 1px solid #dddddd;
 }
 
-/* line 57, ../scss/partials/_modules.scss */
+/* line 60, ../scss/partials/_modules.scss */
 .primary-content img {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -10092,12 +10110,12 @@ iframe {
   height: auto;
 }
 
-/* line 63, ../scss/partials/_modules.scss */
+/* line 66, ../scss/partials/_modules.scss */
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
   margin-left: 0px;
 }
 
-/* line 67, ../scss/partials/_modules.scss */
+/* line 70, ../scss/partials/_modules.scss */
 header .navbar-brand {
   padding-bottom: 0px;
   height: auto;
@@ -10105,26 +10123,40 @@ header .navbar-brand {
   padding-top: 31.25px;
 }
 
-/* line 74, ../scss/partials/_modules.scss */
+/* line 77, ../scss/partials/_modules.scss */
 .col-no-padding {
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
 
-/* line 79, ../scss/partials/_modules.scss */
+/* line 82, ../scss/partials/_modules.scss */
 .btn-sprite, .btn-appstore, .btn-googleplay {
-  height: 49px;
-  width: 145px;
+  height: 53px;
+  width: 149px;
   margin: 0 8px;
   display: inline-block;
 }
 
-/* line 88, ../scss/partials/_modules.scss */
+/* line 89, ../scss/partials/_modules.scss */
+.circle {
+  -moz-border-radius: 400px;
+  -webkit-border-radius: 400px;
+  border-radius: 400px;
+}
+
+/* line 95, ../scss/partials/_modules.scss */
+.img-thumb {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #1a1a1a;
+}
+
+/* line 104, ../scss/partials/_modules.scss */
 .masthead {
   color: #fff;
   position: relative;
 }
-/* line 92, ../scss/partials/_modules.scss */
+/* line 108, ../scss/partials/_modules.scss */
 .masthead .download-buttons {
   position: absolute;
   left: 50%;
@@ -10133,8 +10165,15 @@ header .navbar-brand {
   width: auto;
   margin-left: -147px;
 }
+/* line 116, ../scss/partials/_modules.scss */
+.masthead .download-buttons div {
+  border: 2px solid #262626;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
 
-/* line 102, ../scss/partials/_modules.scss */
+/* line 123, ../scss/partials/_modules.scss */
 body .masthead .background {
   opacity: 100;
   filter: alpha(opacity=10000);
@@ -10142,13 +10181,27 @@ body .masthead .background {
   filter: alpha(opacity=100);
 }
 
-/* line 109, ../scss/partials/_modules.scss */
+/* line 130, ../scss/partials/_modules.scss */
 .icon-section {
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-/* line 114, ../scss/partials/_modules.scss */
+/* line 137, ../scss/partials/_modules.scss */
+.section-sm p, .section-sm span, .section-sm h1, .section-sm h2, .section-sm h3, .section-sm h4, .section-sm h5, .section-sm h6 {
+  color: #1a1a1a;
+}
+/* line 141, ../scss/partials/_modules.scss */
+.section-sm h4 {
+  margin-top: 11px;
+}
+
+/* line 146, ../scss/partials/_modules.scss */
+#btn-action {
+  margin-bottom: 0;
+}
+
+/* line 150, ../scss/partials/_modules.scss */
 .icon-sections {
   margin-top: 15px;
   vertical-align: middle;
@@ -10156,30 +10209,30 @@ body .masthead .background {
   line-height: 1;
 }
 
-/* line 121, ../scss/partials/_modules.scss */
+/* line 157, ../scss/partials/_modules.scss */
 .home .masthead .background {
   background-image: url('/wp-content/themes/Spotio/assets/images/bg-photo01.jpg?1397080369');
 }
 
-/* line 127, ../scss/partials/_modules.scss */
+/* line 163, ../scss/partials/_modules.scss */
 .sidebar-col .attachment-sidebar-thumb {
   margin-bottom: 50px;
   max-width: 100%;
   height: auto;
 }
 
-/* line 133, ../scss/partials/_modules.scss */
+/* line 169, ../scss/partials/_modules.scss */
 .page-template-page-product-php .body-content img {
   border: none;
 }
 
-/* line 139, ../scss/partials/_modules.scss */
+/* line 175, ../scss/partials/_modules.scss */
 .btn, .gform_button, .gform_button {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
-/* line 144, ../scss/partials/_modules.scss */
+/* line 180, ../scss/partials/_modules.scss */
 .btn-clear {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -10190,75 +10243,109 @@ body .masthead .background {
   padding: 5px 20px;
 }
 
-/* line 154, ../scss/partials/_modules.scss */
+/* line 190, ../scss/partials/_modules.scss */
 .btn-lg.btn-clear, .btn-group-lg > .btn-clear.btn, .btn-group-lg > .btn-clear.gform_button {
   padding: 11px 28px;
 }
 
-/* line 158, ../scss/partials/_modules.scss */
+/* line 194, ../scss/partials/_modules.scss */
 .btn-sm.btn-clear, .btn-group-sm > .btn-clear.btn, .btn-group-sm > .btn-clear.gform_button {
   padding: 2px 16px;
 }
 
-/* line 162, ../scss/partials/_modules.scss */
+/* line 198, ../scss/partials/_modules.scss */
 .btn-xs.btn-clear, .btn-group-xs > .btn-clear.btn, .btn-group-xs > .btn-clear.gform_button {
   padding: 0.1px 6px;
 }
 
-/* line 166, ../scss/partials/_modules.scss */
+/* line 202, ../scss/partials/_modules.scss */
 .btn-clear:hover {
   background-color: white;
   color: black;
 }
 
-/* line 171, ../scss/partials/_modules.scss */
+/* line 208, ../scss/partials/_modules.scss */
+.bg-primary .btn-clear {
+  border: 2px solid #1a1a1a;
+  color: #1a1a1a;
+  padding: 5px 20px;
+}
+/* line 214, ../scss/partials/_modules.scss */
+.bg-primary .btn-lg.btn-clear, .bg-primary .btn-group-lg > .btn-clear.btn, .bg-primary .btn-group-lg > .btn-clear.gform_button {
+  padding: 11px 28px;
+}
+/* line 218, ../scss/partials/_modules.scss */
+.bg-primary .btn-sm.btn-clear, .bg-primary .btn-group-sm > .btn-clear.btn, .bg-primary .btn-group-sm > .btn-clear.gform_button {
+  padding: 2px 16px;
+}
+/* line 222, ../scss/partials/_modules.scss */
+.bg-primary .btn-xs.btn-clear, .bg-primary .btn-group-xs > .btn-clear.btn, .bg-primary .btn-group-xs > .btn-clear.gform_button {
+  padding: 0.1px 6px;
+}
+/* line 226, ../scss/partials/_modules.scss */
+.bg-primary .btn-clear:hover {
+  background-color: #1a1a1a;
+  color: #f39c12;
+}
+
+/* line 232, ../scss/partials/_modules.scss */
 .body-content .btn, .body-content .gform_button {
   margin-top: 5px;
   margin-bottom: 10px;
 }
 
-/* line 176, ../scss/partials/_modules.scss */
+/* line 237, ../scss/partials/_modules.scss */
 .footer .btn, .footer .gform_button {
   margin-bottom: 10px;
 }
 
-/* line 180, ../scss/partials/_modules.scss */
+/* line 241, ../scss/partials/_modules.scss */
 .fa-right {
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
-/* line 184, ../scss/partials/_modules.scss */
+/* line 245, ../scss/partials/_modules.scss */
 .fa-left {
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
-/* line 188, ../scss/partials/_modules.scss */
+/* line 249, ../scss/partials/_modules.scss */
+.btn-right {
+  margin-left: 60px;
+}
+
+/* line 253, ../scss/partials/_modules.scss */
+.btn-left {
+  margin-right: 60px;
+}
+
+/* line 259, ../scss/partials/_modules.scss */
 .btn-secondary {
   color: white;
   background-color: #90c4eb;
   border-color: #7ab9e7;
 }
 
-/* line 194, ../scss/partials/_modules.scss */
+/* line 265, ../scss/partials/_modules.scss */
 .social-btns {
   margin-top: 25px;
 }
-/* line 196, ../scss/partials/_modules.scss */
+/* line 267, ../scss/partials/_modules.scss */
 .social-btns a {
   color: #999999;
 }
-/* line 197, ../scss/partials/_modules.scss */
+/* line 268, ../scss/partials/_modules.scss */
 .social-btns i {
   margin: 0 8px 0 8px;
 }
 
-/* line 203, ../scss/partials/_modules.scss */
+/* line 274, ../scss/partials/_modules.scss */
 header .brand .navbar-brand img {
   width: 193px;
   height: auto;
 }
 
-/* line 208, ../scss/partials/_modules.scss */
+/* line 279, ../scss/partials/_modules.scss */
 .nav > .menu-item > a {
   font-weight: 400;
   text-transform: uppercase;
@@ -10266,82 +10353,82 @@ header .brand .navbar-brand img {
   letter-spacing: 1px;
 }
 
-/* line 215, ../scss/partials/_modules.scss */
+/* line 286, ../scss/partials/_modules.scss */
 header .navbar-form {
   margin-top: 0;
   margin-top: 0;
 }
 
-/* line 220, ../scss/partials/_modules.scss */
+/* line 291, ../scss/partials/_modules.scss */
 .tagline {
   font-size: 16px;
   font-weight: 300;
   padding-top: 7px;
 }
 
-/* line 226, ../scss/partials/_modules.scss */
+/* line 297, ../scss/partials/_modules.scss */
 .navbar {
   margin-bottom: 0px;
 }
 
-/* line 230, ../scss/partials/_modules.scss */
+/* line 301, ../scss/partials/_modules.scss */
 body > header > .top-navbar {
   border-bottom: 5px solid #e6e6e6;
 }
 
-/* line 234, ../scss/partials/_modules.scss */
+/* line 305, ../scss/partials/_modules.scss */
 .navbar-toggle {
   margin-top: 29.0px;
   margin-bottom: 23px;
   margin-right: -10px;
 }
 
-/* line 240, ../scss/partials/_modules.scss */
+/* line 311, ../scss/partials/_modules.scss */
 .navbar-toggle i {
   color: #ffffff;
 }
 
-/* line 244, ../scss/partials/_modules.scss */
+/* line 315, ../scss/partials/_modules.scss */
 .navbar-toggle .icon-bar {
   height: 3px;
 }
 
-/* line 248, ../scss/partials/_modules.scss */
+/* line 319, ../scss/partials/_modules.scss */
 .navbar-toggle:focus {
   outline: none;
 }
 
-/* line 252, ../scss/partials/_modules.scss */
+/* line 323, ../scss/partials/_modules.scss */
 .navbar-collapse .navbar-nav li {
   border-bottom: 1px solid rgba(26, 26, 26, 0);
 }
 
-/* line 256, ../scss/partials/_modules.scss */
+/* line 327, ../scss/partials/_modules.scss */
 .navbar-nav {
   margin: 0px;
 }
 
-/* line 260, ../scss/partials/_modules.scss */
+/* line 331, ../scss/partials/_modules.scss */
 .navbar-collapse {
   max-height: 700px;
 }
 
-/* line 264, ../scss/partials/_modules.scss */
+/* line 335, ../scss/partials/_modules.scss */
 .sub-menu .menu-item:hover {
   color: white !important;
 }
 
-/* line 270, ../scss/partials/_modules.scss */
+/* line 341, ../scss/partials/_modules.scss */
 .sub-menu .menu-item a:hover {
   color: white !important;
 }
 
-/* line 275, ../scss/partials/_modules.scss */
+/* line 346, ../scss/partials/_modules.scss */
 .nav .open .dropdown-toggle {
   color: white !important;
 }
 
-/* line 279, ../scss/partials/_modules.scss */
+/* line 350, ../scss/partials/_modules.scss */
 .mobile-landing {
   border-bottom: 1px solid black;
   padding-bottom: 5px;
@@ -10350,77 +10437,77 @@ body > header > .top-navbar {
   z-index: 50;
   padding-top: 15px;
 }
-/* line 287, ../scss/partials/_modules.scss */
+/* line 358, ../scss/partials/_modules.scss */
 .mobile-landing .phone a {
   margin-top: 15px;
   font-size: 17px;
   padding: 14px 0px;
 }
 
-/* line 296, ../scss/partials/_modules.scss */
+/* line 367, ../scss/partials/_modules.scss */
 .footer-logo {
   display: block;
   text-align: center;
 }
-/* line 301, ../scss/partials/_modules.scss */
+/* line 372, ../scss/partials/_modules.scss */
 .footer-logo img {
   width: 156px;
   height: auto;
 }
 
-/* line 307, ../scss/partials/_modules.scss */
+/* line 378, ../scss/partials/_modules.scss */
 .small-footer {
   background: #080808;
 }
-/* line 310, ../scss/partials/_modules.scss */
+/* line 381, ../scss/partials/_modules.scss */
 .small-footer a {
   display: block;
   text-align: center;
   color: #999999;
 }
-/* line 316, ../scss/partials/_modules.scss */
+/* line 387, ../scss/partials/_modules.scss */
 .small-footer .footer-credits {
   width: 100%;
 }
-/* line 320, ../scss/partials/_modules.scss */
+/* line 391, ../scss/partials/_modules.scss */
 .small-footer .footer-menu {
   width: 100%;
 }
-/* line 323, ../scss/partials/_modules.scss */
+/* line 394, ../scss/partials/_modules.scss */
 .small-footer .footer-menu .menu li a {
   font-size: 14px;
 }
 
-/* line 336, ../scss/partials/_modules.scss */
+/* line 407, ../scss/partials/_modules.scss */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-/* line 342, ../scss/partials/_modules.scss */
-.site-main h2, .site-main h3, .site-main h4, .site-main h5, .site-main h6 {
+/* line 413, ../scss/partials/_modules.scss */
+.primary-content h2, .primary-content h3, .primary-content h4, .primary-content h5, .primary-content h6 {
   margin: 35px 0 0 0;
   margin-bottom: 0px;
 }
 
-/* line 350, ../scss/partials/_modules.scss */
+/* line 421, ../scss/partials/_modules.scss */
 .top-header .widget h3 {
   font-size: 26px;
   font-family: "proxima-nova";
   font-weight: bold;
 }
 
-/* line 357, ../scss/partials/_modules.scss */
+/* line 428, ../scss/partials/_modules.scss */
 .site-title a {
   font-size: 36px;
 }
 
-/* line 363, ../scss/partials/_modules.scss */
+/* line 434, ../scss/partials/_modules.scss */
 .block {
   display: block;
 }
 
-/* line 369, ../scss/partials/_modules.scss */
+/* line 440, ../scss/partials/_modules.scss */
 .nav .menu-item .dropdown-menu {
   padding: 0px 0px;
   -moz-border-radius: 4px;
@@ -10429,11 +10516,11 @@ h1, h2, h3, h4, h5, h6 {
   left: 10px;
   top: 100px;
 }
-/* line 375, ../scss/partials/_modules.scss */
+/* line 446, ../scss/partials/_modules.scss */
 .nav .menu-item .dropdown-menu li {
   display: list-item;
 }
-/* line 378, ../scss/partials/_modules.scss */
+/* line 449, ../scss/partials/_modules.scss */
 .nav .menu-item .dropdown-menu li a {
   font-size: 15px;
   color: #cccccc;
@@ -10443,7 +10530,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
 }
 
-/* line 392, ../scss/partials/_modules.scss */
+/* line 463, ../scss/partials/_modules.scss */
 .body-content ul li:before {
   font-family: 'FontAwesome';
   content: "\f054";
@@ -10451,13 +10538,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #cccccc;
 }
 
-/* line 402, ../scss/partials/_modules.scss */
+/* line 473, ../scss/partials/_modules.scss */
 .ginput_container input, .ginput_container select, .ginput_container textarea {
   padding-left: 8px;
   padding-right: 8px;
 }
 
-/* line 415, ../scss/partials/_modules.scss */
+/* line 486, ../scss/partials/_modules.scss */
 .body-content .gform_body ul li:before {
   font-family: inherit;
   content: none;
@@ -10465,66 +10552,65 @@ h1, h2, h3, h4, h5, h6 {
   color: inherit;
 }
 
-/* line 427, ../scss/partials/_modules.scss */
+/* line 498, ../scss/partials/_modules.scss */
 .logos {
   background: #1a1a1a;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  border-bottom: 1px solid #0d0d0d;
+  padding-top: 80px;
+  padding-bottom: 85px;
 }
-/* line 433, ../scss/partials/_modules.scss */
+/* line 504, ../scss/partials/_modules.scss */
 .logos p {
   text-transform: uppercase;
   margin-top: 18px !important;
   color: #666666;
 }
-/* line 439, ../scss/partials/_modules.scss */
+/* line 510, ../scss/partials/_modules.scss */
 .logos img {
   border: none;
 }
 
-/* line 453, ../scss/partials/_modules.scss */
+/* line 524, ../scss/partials/_modules.scss */
 .body-content p, .body-content ul, .body-content ol {
   margin: 35px 0 0 0;
 }
 
-/* line 458, ../scss/partials/_modules.scss */
+/* line 529, ../scss/partials/_modules.scss */
 .lead {
   font-size: 18px;
   font-weight: 400;
 }
 
-/* line 465, ../scss/partials/_modules.scss */
+/* line 536, ../scss/partials/_modules.scss */
 .widget ul.menu {
   list-style: none;
   padding-left: 0;
 }
 
-/* line 470, ../scss/partials/_modules.scss */
+/* line 541, ../scss/partials/_modules.scss */
 .body-content .widget {
   padding-bottom: 50px;
 }
 
-/* line 474, ../scss/partials/_modules.scss */
+/* line 545, ../scss/partials/_modules.scss */
 .sidebar .widget > div {
   margin-top: 25px;
 }
 
-/* line 478, ../scss/partials/_modules.scss */
+/* line 549, ../scss/partials/_modules.scss */
 .sidebar .widget div > ul, ol {
   padding-left: 0px;
 }
-/* line 481, ../scss/partials/_modules.scss */
+/* line 552, ../scss/partials/_modules.scss */
 .sidebar .widget div > ul li, ol li {
   margin-bottom: 10px;
 }
 
-/* line 486, ../scss/partials/_modules.scss */
+/* line 557, ../scss/partials/_modules.scss */
 .footer .widget {
   padding-bottom: 0px !important;
 }
 
-/* line 490, ../scss/partials/_modules.scss */
+/* line 561, ../scss/partials/_modules.scss */
 .widget_sp_image img {
   height: auto;
   -moz-border-radius: 4px;
@@ -10532,17 +10618,17 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
 }
 
-/* line 495, ../scss/partials/_modules.scss */
+/* line 566, ../scss/partials/_modules.scss */
 .top-header .widget-title {
   margin-bottom: 5px;
 }
 
-/* line 499, ../scss/partials/_modules.scss */
+/* line 570, ../scss/partials/_modules.scss */
 .small-footer .menu li {
   display: inline;
 }
 
-/* line 505, ../scss/partials/_modules.scss */
+/* line 576, ../scss/partials/_modules.scss */
 .btn-play {
   z-index: 1000;
   position: absolute;
@@ -10553,7 +10639,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -40px;
 }
 
-/* line 515, ../scss/partials/_modules.scss */
+/* line 586, ../scss/partials/_modules.scss */
 .player {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -10561,7 +10647,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #000000;
 }
 
-/* line 523, ../scss/partials/_modules.scss */
+/* line 594, ../scss/partials/_modules.scss */
 .flex-video {
   padding-top: 0px;
   background: #cccccc;
@@ -10569,7 +10655,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 528, ../scss/partials/_modules.scss */
+/* line 599, ../scss/partials/_modules.scss */
 .flex-video img {
   position: absolute;
   top: 0;
@@ -10577,7 +10663,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
 }
-/* line 536, ../scss/partials/_modules.scss */
+/* line 607, ../scss/partials/_modules.scss */
 .flex-video iframe {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -10585,9 +10671,18 @@ h1, h2, h3, h4, h5, h6 {
   padding: 5px;
 }
 
-/* line 542, ../scss/partials/_modules.scss */
+/* line 613, ../scss/partials/_modules.scss */
 .flex-video.widescreen {
   padding-bottom: 56%;
+}
+
+/* line 622, ../scss/partials/_modules.scss */
+.reviews h5 {
+  margin-top: 25px;
+}
+/* line 626, ../scss/partials/_modules.scss */
+.reviews .reviews-row {
+  margin-top: 80px;
 }
 
 @media (min-width: 768px) {
@@ -10689,8 +10784,8 @@ h1, h2, h3, h4, h5, h6 {
 
   /* line 105, ../scss/partials/_states.scss */
   .masthead, .primary-content, .more-foot, .small-footer, .main-col {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   /* line 112, ../scss/partials/_states.scss */

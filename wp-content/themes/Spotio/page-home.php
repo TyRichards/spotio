@@ -20,7 +20,7 @@ Template Name: Home
                 </a>
             </div> -->            
         </div>           
-        <div class="col-sm-5 col-no-padding">
+        <div class="col-sm-5">
             <div class="col-sm-12 col-no-padding">
                 <h2><i>The</i> App for Tracking Door-to-Door Sales</h2>
                 <div class="icon-section">
@@ -73,7 +73,7 @@ Template Name: Home
     </div>
 </section>
 
-<!-- Credibility indicators -->
+<!-- Integrations -->
 <section class="logos">
     <div class="container">
         <div class="col-md-2 text-center">
@@ -83,54 +83,50 @@ Template Name: Home
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/integrations.png" alt="Spotio Integrations" width="100%">
         </div>                                                                                           
     </div>
-</section>                  
+</section>   
 
-<section class="primary-content">
-    <div class="container col-no-padding-xs">
-        <section class="main-col page-content col-sm-7">
-            <div id="main" class="site-main" role="main">
-                <?php
-                while (have_posts()) {
-                  the_post();
-
-                  get_template_part('content', 'page');
-
-                  echo "\n\n";
-               // If comments are open or we have at least one comment, load up the comment template
-                  if (comments_open() || '0' != get_comments_number()) {
-                    comments_template();
-                  }
-
-                  echo "\n\n";
-
-                } //endwhile;
-                ?>
-                <a class="btn btn-success" href="#">
-                    <i class="fa fa-phone fa-1x"></i>
-                    Call (555) 555-5555
-                </a>
-                    &nbsp;&nbsp;
-                <a class="btn btn-success" href="/locations">
-                    <i class="fa fa-map-marker fa-1x"></i>
-                    Locations
-                </a>             
-           </div>
-        </section>
-        <section class="sidebar-col sidebar-right sidebar col-sm-5">
-            <div class="col-sm-12 col-md-10 col-md-offset-2 col-no-padding">
-<!--                 <?php 
-                    if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
-                    the_post_thumbnail('sidebar-thumb', array('class' => 'feature-image attachment-sidebar-thumb img-rounded' ));
-                    } 
-                    else {
-                        ?><img src="<?php echo get_template_directory_uri(); ?>/assets/images/sidebar-default.jpg" class="feature-image attachment-sidebar-thumb wp-post-image img-rounded col-md-9 col-no-padding" alt="<?php wp_title('|', true, 'right'); ?>"><?php
-                    }
-                ?>   -->       
-                <?php get_sidebar('default'); ?>
+<!-- Testimonials -->
+<section class="section reviews">
+    <div class="container">
+        <div class="row">
+            <div class="text-center col-sm-8 col-sm-offset-2">
+                <h2>The #1 Door to Door App on the App Store & Google Play</h2>            
             </div>
-        </section>
+        </div>
+        <div class="row reviews-row">
+            <div class="col-sm-4 text-center">
+                <img class="img-thumb circle" src="<?php echo get_template_directory_uri(); ?>/assets/images/customer/michelle.png" alt="Spotio Reviews" width="100%" height="100%">
+                <h5>Zachary Smith</h5>
+                <p>"Great tool to have in your arsenal as a salesperson. This app makes it easy to track your progress and store leads."</p>
+            </div>            
+            <div class="col-sm-4 text-center">                
+                <img class="img-thumb circle" src="<?php echo get_template_directory_uri(); ?>/assets/images/customer/michelle.png" alt="Spotio Reviews" width="100%" height="100%">
+                <h5>Michelle Capp</h5>
+                <p>"I just started a door to door sales job and this app has been a lifesaver.  It make my job so much easier and keeps me organized.  This app is a must have!"</p>
+            </div>
+            <div class="col-sm-4 text-center">
+                <img class="img-thumb circle" src="<?php echo get_template_directory_uri(); ?>/assets/images/customer/michelle.png" alt="Spotio Reviews" width="100%" height="100%">
+                <h5>John Lewis</h5>
+                <p>"This app rocks! No more "door-knocking sheets"... I love it."</p>
+            </div>                
+        </div>
     </div>
-</section>
+</section>    
+
+<!-- Call to Action -->
+<section class="section-sm bg-primary">
+    <div class="container">
+        <div class="col-sm-8 text-center">
+            <h4>Hit the ground running with a 2 month free trial</h4>
+        </div>
+        <div class="col-sm-4">
+            <a id="btn-action" class="btn btn-lg btn-clear btn-block" href="#">
+                Get Started
+                <i class="fa fa-arrow-circle-right fa-right"></i>
+            </a>
+        </div>
+    </div>
+</section>           
 
 
 <?php get_footer(); ?> 
