@@ -6,6 +6,21 @@
  */
 ?>
 
+			<!-- Call to Action -->
+			<section class="section-sm bg-primary">
+			    <div class="container">
+			        <div class="col-sm-8 text-center">
+			            <h4>Hit the ground running with a 2 month free trial</h4>
+			        </div>
+			        <div class="col-sm-4">
+			            <a id="btn-action" class="btn btn-lg btn-clear btn-block" href="#">
+			                Get Started
+			                <i class="fa fa-arrow-circle-right fa-right"></i>
+			            </a>
+			        </div>
+			    </div>
+			</section>   
+
 			</div><!--.body-content-->	
 
 			<footer class="footer">
@@ -51,11 +66,11 @@
 					                </ul> -->
 				          </div>					        
 					        <div class="col-sm-6 col-md-3">
-					          <a class="btn btn-primary btn-block" href="/schedule-inspection">											
+					          <a class="btn btn-primary btn-block" href="http://login.icanvassapp.com/Account/Register">											
 											Start Free Trial
 											<i class="fa fa-right fa-arrow-circle-right"></i>
 										</a>
-					          <a class="btn btn-clear btn-block" href="/schedule-inspection">											
+					          <a class="btn btn-clear btn-block" href="http://login.icanvassapp.com/Account/Register">											
 											Sign In
 										</a>  										  								
 					      	</div>

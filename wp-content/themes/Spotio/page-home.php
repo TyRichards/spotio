@@ -111,22 +111,6 @@ Template Name: Home
             </div>                
         </div>
     </div>
-</section>    
-
-<!-- Call to Action -->
-<section class="section-sm bg-primary">
-    <div class="container">
-        <div class="col-sm-8 text-center">
-            <h4>Hit the ground running with a 2 month free trial</h4>
-        </div>
-        <div class="col-sm-4">
-            <a id="btn-action" class="btn btn-lg btn-clear btn-block" href="#">
-                Get Started
-                <i class="fa fa-arrow-circle-right fa-right"></i>
-            </a>
-        </div>
-    </div>
-</section>           
-
+</section>            
 
 <?php get_footer(); ?> 
