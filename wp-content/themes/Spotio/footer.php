@@ -13,7 +13,7 @@
 			            <h4>Hit the ground running with a 2 month free trial</h4>
 			        </div>
 			        <div class="col-sm-4">
-			            <a id="btn-action" class="btn btn-lg btn-clear btn-block" href="#">
+			            <a id="btn-action" class="btn btn-lg btn-clear btn-block" href="http://login.icanvassapp.com/Account/Register">
 			                Get Started
 			                <i class="fa fa-arrow-circle-right fa-right"></i>
 			            </a>
