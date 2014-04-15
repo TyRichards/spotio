@@ -45,7 +45,7 @@ Template Name: Home
                             <i class="fa fa-laptop fa-2x"></i><i class="fa fa-mobile fa-2x"></i>
                         </div>
                         <div class="col-xs-10 vert-align">
-                            Made for mobile & desktop<br>
+                            Made for mobile & web<br>
                             iOS, Android, Mac & PC 
                         </div>
                     </div>                

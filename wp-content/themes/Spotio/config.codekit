@@ -104,6 +104,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/customer\/michelle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72873,
+		"inputAbbreviatedPath": "\/assets\/images\/customer\/michelle.png",
+		"outputAbbreviatedPath": "\/assets\/images\/customer\/michelle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -203,6 +214,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/icon\/iphone@2x-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 488001,
+		"inputAbbreviatedPath": "\/assets\/images\/icon\/iphone@2x-2.png",
+		"outputAbbreviatedPath": "\/assets\/images\/icon\/iphone@2x-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/icon\/iPhone@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -243,6 +265,17 @@
 		"initialSize": 8582,
 		"inputAbbreviatedPath": "\/assets\/images\/icon\/Map@2x.png",
 		"outputAbbreviatedPath": "\/assets\/images\/icon\/Map@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/icon\/Money@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10735,
+		"inputAbbreviatedPath": "\/assets\/images\/icon\/Money@2x.png",
+		"outputAbbreviatedPath": "\/assets\/images\/icon\/Money@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -544,13 +577,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/sidebar-default.jpg": {
+	"\/assets\/images\/sidebar-default*.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 56452,
-		"inputAbbreviatedPath": "\/assets\/images\/sidebar-default.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/sidebar-default.jpg",
+		"inputAbbreviatedPath": "\/assets\/images\/sidebar-default*.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/sidebar-default*.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1093,6 +1126,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/page-features.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page-features.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/page-fullwidth.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1116,6 +1158,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/page-left-sidebar.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page-pricing.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page-pricing.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
