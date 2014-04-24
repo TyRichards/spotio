@@ -10,7 +10,8 @@
 			<section class="section-sm bg-primary">
 			    <div class="container">
 			        <div class="col-sm-8 text-center">
-			            <h4>Hit the ground running with a 2 month free trial</h4>
+			            <h4>Sign up in seconds. 14 day free trial.</h4>
+			            <span>No credit card required</span>
 			        </div>
 			        <div class="col-sm-4">
 			            <a id="btn-action" class="btn btn-lg btn-clear btn-block" href="http://login.icanvassapp.com/Account/Register">
