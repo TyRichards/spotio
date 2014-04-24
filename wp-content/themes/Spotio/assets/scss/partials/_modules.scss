@@ -86,7 +86,7 @@ header .navbar-brand {
   display: inline-block;
 }
 
-.circle {
+.circle, .primary-content img.circle {
     @include border-radius(400px);
 }
 
@@ -649,6 +649,18 @@ background: #000000;
 
 // Reviews ////////////////////
 
+.primary-content .reviews h5 {
+    margin-top: 13px;
+} 
+
+.reviews {
+
+    .img-mini {
+        margin-right: 15px;
+    }
+
+}
+
 .media-list {
 
     h5 { margin-top: 13px; }
@@ -807,4 +819,12 @@ text-indent: -999px;
 background-color: #f1f1f1;
 border-radius: 50%;
 cursor: pointer;
+}
+
+// Alerts //////////////////////////////////////
+
+.alert-black {
+    background-color: $state-black-bg;
+    border-color: $state-black-border;
+    color: $state-black-text;
 }

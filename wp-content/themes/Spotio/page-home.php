@@ -63,14 +63,14 @@ Template Name: Home
             </div>            
         </div>              
     </div> <!-- .container -->
-    <div class="download-buttons">
+<!--     <div class="download-buttons">
         <a href="https://itunes.apple.com/us/app/icanvass-door-to-door-sales/id618155835?mt=8" target="_blank">
             <div class="btn-sprite btn-appstore"></div>
         </a>
         <a href="https://play.google.com/store/apps/details?id=com.icanvass" target="_blank">
             <div class="btn-sprite btn-googleplay"></div>
         </a>
-    </div>
+    </div> -->
 </section>
 
 <!-- Integrations -->
@@ -88,16 +88,16 @@ Template Name: Home
 <!-- Testimonials -->
 <section class="section reviews">
     <div class="container">
-        <img class="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/screen-1.jpg" alt="Spotio">
-        <div class="col-xs-12 row">
+        <img class="image hidden-xs" src="<?php echo get_template_directory_uri(); ?>/assets/images/screen-1.jpg" alt="Spotio">
+        <div class="visible-xs">
+            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/images/screen-1.jpg" alt="Spotio">
+        </div>        
+        <div class="col-xs-12">
             <div class="text-center col-sm-8 col-sm-offset-2">
                 <h2>The #1 Door to Door App on the App Store & Google Play</h2>            
             </div>
         </div>
-        <div class="col-sm-8">
-<!--             <img class="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/screen-1.jpg" alt="Spotio"> -->
-        </div>
-        <div class="col-sm-4">
+        <div class="col-xs-12 col-sm-4 col-sm-offset-8">
             <ul class="media-list">       
                 <li class="media">
                     <img class="img-mini pull-left circle" src="<?php echo get_template_directory_uri(); ?>/assets/images/customer/michelle-capp.png" alt="Spotio Reviews" width="100%" height="100%">

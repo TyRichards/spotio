@@ -483,6 +483,10 @@ $navbar-default-toggle-border-color:       transparent;
 // //
 // //## Define colors for form feedback states and, by default, alerts.
 
+$state-black-text:             #fff;
+$state-black-bg:               $gray-darker;
+$state-black-border:           #000;
+
 // $state-success-text:             #3c763d;
 // $state-success-bg:               #dff0d8;
 // $state-success-border:           darken(adjust-hue($state-success-bg, -10), 5%);

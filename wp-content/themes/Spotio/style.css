@@ -10137,7 +10137,7 @@ header .navbar-brand {
 }
 
 /* line 89, ../scss/partials/_modules.scss */
-.circle {
+.circle, .primary-content img.circle {
   -moz-border-radius: 400px;
   -webkit-border-radius: 400px;
   border-radius: 400px;
@@ -10713,20 +10713,30 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 56%;
 }
 
-/* line 654, ../scss/partials/_modules.scss */
+/* line 652, ../scss/partials/_modules.scss */
+.primary-content .reviews h5 {
+  margin-top: 13px;
+}
+
+/* line 658, ../scss/partials/_modules.scss */
+.reviews .img-mini {
+  margin-right: 15px;
+}
+
+/* line 666, ../scss/partials/_modules.scss */
 .media-list h5 {
   margin-top: 13px;
 }
-/* line 656, ../scss/partials/_modules.scss */
+/* line 668, ../scss/partials/_modules.scss */
 .media-list li.media {
   margin-top: 50px;
 }
-/* line 658, ../scss/partials/_modules.scss */
+/* line 670, ../scss/partials/_modules.scss */
 .media-list p {
   margin: 25px 0 0 0;
 }
 
-/* line 664, ../scss/partials/_modules.scss */
+/* line 676, ../scss/partials/_modules.scss */
 .plan {
   position: relative;
   -webkit-box-sizing: border-box;
@@ -10743,31 +10753,31 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
-/* line 676, ../scss/partials/_modules.scss */
+/* line 688, ../scss/partials/_modules.scss */
 .plan .description {
   padding: 25px 40px;
   font-size: 18px;
   color: #999999;
 }
 
-/* line 682, ../scss/partials/_modules.scss */
+/* line 694, ../scss/partials/_modules.scss */
 .plan .price {
   padding-bottom: 30px;
   border-bottom: 2px solid #555555;
 }
 
-/* line 687, ../scss/partials/_modules.scss */
+/* line 699, ../scss/partials/_modules.scss */
 .plan .description .description-box {
   padding: 16px 0;
   border-top: 2px solid #555555;
 }
 
-/* line 692, ../scss/partials/_modules.scss */
+/* line 704, ../scss/partials/_modules.scss */
 .plan .description .description-box:first-child {
   border-top: 0;
 }
 
-/* line 696, ../scss/partials/_modules.scss */
+/* line 708, ../scss/partials/_modules.scss */
 .plan .btn, .plan .gform_button {
   display: block;
   width: auto;
@@ -10779,13 +10789,13 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0 0 4px 4px;
 }
 
-/* line 705, ../scss/partials/_modules.scss */
+/* line 717, ../scss/partials/_modules.scss */
 .pricing {
   margin-top: 35px;
   margin-bottom: 80px;
 }
 
-/* line 712, ../scss/partials/_modules.scss */
+/* line 724, ../scss/partials/_modules.scss */
 section.features .box {
   position: relative;
   padding-left: 140px;
@@ -10795,20 +10805,20 @@ section.features .box {
   border-top: 2px solid black;
 }
 
-/* line 721, ../scss/partials/_modules.scss */
+/* line 733, ../scss/partials/_modules.scss */
 section.features .box:first-child {
   margin-top: 0;
   border-top: 0;
 }
 
-/* line 726, ../scss/partials/_modules.scss */
+/* line 738, ../scss/partials/_modules.scss */
 section.features .box > img {
   position: absolute;
   left: 0;
   top: 50px;
 }
 
-/* line 732, ../scss/partials/_modules.scss */
+/* line 744, ../scss/partials/_modules.scss */
 .features h6 {
   text-transform: none;
   font-size: 22px;
@@ -10818,28 +10828,28 @@ section.features .box > img {
   line-height: 1.3;
 }
 
-/* line 741, ../scss/partials/_modules.scss */
+/* line 753, ../scss/partials/_modules.scss */
 section.features p {
   font-size: 16px;
   font-weight: normal;
   margin-top: 0;
 }
 
-/* line 747, ../scss/partials/_modules.scss */
+/* line 759, ../scss/partials/_modules.scss */
 section.features .carousel {
   margin-bottom: 0;
   display: inline-block;
   text-align: center;
 }
 
-/* line 753, ../scss/partials/_modules.scss */
+/* line 765, ../scss/partials/_modules.scss */
 section.features .carousel-inner {
   position: relative;
   width: 100%;
   overflow: hidden;
 }
 
-/* line 759, ../scss/partials/_modules.scss */
+/* line 771, ../scss/partials/_modules.scss */
 section.features .carousel .item {
   -webkit-transition: 0.6s ease-in-out opacity;
   -moz-transition: 0.6s ease-in-out opacity;
@@ -10848,7 +10858,7 @@ section.features .carousel .item {
   left: 0 !important;
 }
 
-/* line 767, ../scss/partials/_modules.scss */
+/* line 779, ../scss/partials/_modules.scss */
 section.features .carousel-inner > .item {
   position: relative;
   display: none;
@@ -10856,7 +10866,7 @@ section.features .carousel-inner > .item {
   transition: .6s ease-in-out left;
 }
 
-/* line 774, ../scss/partials/_modules.scss */
+/* line 786, ../scss/partials/_modules.scss */
 section.features .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
@@ -10864,12 +10874,12 @@ section.features .carousel-inner > .item > img, .carousel-inner > .item > a > im
   line-height: 1;
 }
 
-/* line 781, ../scss/partials/_modules.scss */
+/* line 793, ../scss/partials/_modules.scss */
 section.features .carousel .item img {
   margin: 0 auto;
 }
 
-/* line 785, ../scss/partials/_modules.scss */
+/* line 797, ../scss/partials/_modules.scss */
 section.features .carousel .carousel-indicators {
   position: static;
   text-align: center;
@@ -10877,17 +10887,17 @@ section.features .carousel .carousel-indicators {
   padding-top: 40px;
 }
 
-/* line 792, ../scss/partials/_modules.scss */
+/* line 804, ../scss/partials/_modules.scss */
 .carousel-indicators {
   width: 100%;
 }
 
-/* line 796, ../scss/partials/_modules.scss */
+/* line 808, ../scss/partials/_modules.scss */
 section.features .carousel .carousel-indicators li:first-child {
   margin-left: 0;
 }
 
-/* line 800, ../scss/partials/_modules.scss */
+/* line 812, ../scss/partials/_modules.scss */
 section.features .carousel .carousel-indicators li {
   display: inline-block;
   float: none;
@@ -10898,6 +10908,13 @@ section.features .carousel .carousel-indicators li {
   background-color: #f1f1f1;
   border-radius: 50%;
   cursor: pointer;
+}
+
+/* line 826, ../scss/partials/_modules.scss */
+.alert-black {
+  background-color: #1a1a1a;
+  border-color: black;
+  color: white;
 }
 
 @media (min-width: 768px) {
