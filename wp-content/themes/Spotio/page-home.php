@@ -88,27 +88,39 @@ Template Name: Home
 <!-- Testimonials -->
 <section class="section reviews">
     <div class="container">
-        <div class="row">
+        <img class="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/screen-1.jpg" alt="Spotio">
+        <div class="col-xs-12 row">
             <div class="text-center col-sm-8 col-sm-offset-2">
                 <h2>The #1 Door to Door App on the App Store & Google Play</h2>            
             </div>
         </div>
-        <div class="row reviews-row">
-            <div class="col-sm-4 text-center">
-                <img class="img-thumb circle" src="<?php echo get_template_directory_uri(); ?>/assets/images/customer/michelle.png" alt="Spotio Reviews" width="100%" height="100%">
-                <h5>Zachary Smith</h5>
-                <p>"Great tool to have in your arsenal as a salesperson. This app makes it easy to track your progress and store leads."</p>
-            </div>            
-            <div class="col-sm-4 text-center">                
-                <img class="img-thumb circle" src="<?php echo get_template_directory_uri(); ?>/assets/images/customer/michelle.png" alt="Spotio Reviews" width="100%" height="100%">
-                <h5>Michelle Capp</h5>
-                <p>"I just started a door to door sales job and this app has been a lifesaver.  It make my job so much easier and keeps me organized.  This app is a must have!"</p>
-            </div>
-            <div class="col-sm-4 text-center">
-                <img class="img-thumb circle" src="<?php echo get_template_directory_uri(); ?>/assets/images/customer/michelle.png" alt="Spotio Reviews" width="100%" height="100%">
-                <h5>John Lewis</h5>
-                <p>"This app rocks! No more "door-knocking sheets"... I love it."</p>
-            </div>                
+        <div class="col-sm-8">
+<!--             <img class="image" src="<?php echo get_template_directory_uri(); ?>/assets/images/screen-1.jpg" alt="Spotio"> -->
+        </div>
+        <div class="col-sm-4">
+            <ul class="media-list">       
+                <li class="media">
+                    <img class="img-mini pull-left circle" src="<?php echo get_template_directory_uri(); ?>/assets/images/customer/michelle-capp.png" alt="Spotio Reviews" width="100%" height="100%">
+                    <div class="media-body">                   
+                        <h5>Michelle Capp</h5>                        
+                    </div>
+                    <p>"I just started a door to door sales job and this app has been a lifesaver.  It make my job so much easier and keeps me organized.  This app is a must have!"</p>
+                </li>
+               <li class="media">
+                    <img class="img-mini media-object pull-left circle" src="<?php echo get_template_directory_uri(); ?>/assets/images/customer/james-festini.png" alt="Spotio Reviews" width="100%" height="100%">
+                    <div class="media-body">                   
+                        <h5>James Festini</h5>                        
+                    </div>
+                    <p>"If you door knock you must ICanvass. Door knocking will never be the same again. A must have for your door sales person."</p>
+                </li>                
+                <li class="media">
+                    <img class="img-mini pull-left circle" src="<?php echo get_template_directory_uri(); ?>/assets/images/customer/steven-scheeler.png" alt="Spotio Reviews" width="100%" height="100%">
+                    <div class="media-body">                   
+                        <h5>Steven Scheeler</h5>                        
+                    </div>
+                    <p>"Great way to canvass a neighborhood while you deliver to current clients.    I love this app. It takes out the guess work on who you have talk too and who you need to talk too. Love the calendar built in that sends you an email reminders on who your leads are for that day."</p>
+                </li>                                
+            </ul>                                   
         </div>
     </div>
 </section>            

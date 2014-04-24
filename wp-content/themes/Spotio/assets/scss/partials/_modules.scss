@@ -15,7 +15,7 @@ h1 {
 
 ul li {
     // counter-increment: foo;
-    display: table-row;
+    // display: table-row; // Add This to make .fa lists work correctly
     list-style: none;
 }
 
@@ -92,9 +92,33 @@ header .navbar-brand {
 
 // Images /////////////////////////////////////////////////////////////////
 
+.reviews .image {
+    display: inline-block;
+    position: absolute;
+    right: 34%;
+    margin-right: 0;
+    width: auto\9;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    top: 176px;
+}
+
+.reviews {
+    position: relative;
+}
+
 .img-thumb {
     width: $img-thumb;
     height: $img-thumb;
+    border: 3px solid $gray-darker;
+}
+
+.img-mini {
+    width: 50px;
+    height: 50px;
     border: 3px solid $gray-darker;
 }
 
@@ -467,6 +491,13 @@ h1, h2, h3, h4, h5, h6 {
         padding-right: 15px;        
         color: $list-bullet-color;
     }
+
+    ul.media-list li:before {
+        font-family: none;
+        content: "";
+        padding-right: inherit;
+        color: inherit;
+    }
 }
 
 // Gravity Forms
@@ -618,15 +649,13 @@ background: #000000;
 
 // Reviews ////////////////////
 
-.reviews {
+.media-list {
 
-    h5 {
-        margin-top: $space-sm;
-    }
+    h5 { margin-top: 13px; }
 
-    .reviews-row {
-        margin-top: $space-lg;
-    }
+    li.media { margin-top: $space-md; }
+
+    p { margin: 25px 0 0 0; }
 
 }
 
