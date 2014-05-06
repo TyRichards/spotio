@@ -64,14 +64,14 @@
 									dynamic_sidebar('navbar-right'); 
 								} ?>  
 								<ul id="menu-main-menu" class="nav navbar-nav navbar-left visible-xs visible-sm ">
-									<li class="menu-item"><a href="http://login.icanvassapp.com/Account/Login">Sign In</a></li>
+									<li class="menu-item"><a href="http://login.icanvassapp.com/">Sign In</a></li>
 								</ul>   		
 								<form class="container navbar-form pull-right call-to-action hidden-xs hidden-sm">
                   <a class="btn btn-sm btn-primary " href="http://login.icanvassapp.com/Account/Register">
                   	Start Free Trial										
                   </a>
                   &nbsp;
-                  <a class="btn btn-sm btn-clear" href="http://login.icanvassapp.com/Account/Register">Sign In</a>
+                  <a class="btn btn-sm btn-clear" href="http://login.icanvassapp.com/">Sign In</a>
                 </form>			
 							</div><!--.navbar-collapse-->
 						</div><!-- .container -->

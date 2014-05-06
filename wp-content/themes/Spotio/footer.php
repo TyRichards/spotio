@@ -6,6 +6,8 @@
  */
 ?>
 
+			</div><!--.body-content-->
+
 			<!-- Call to Action -->
 			<section class="section-sm bg-primary">
 			    <div class="container">
@@ -21,8 +23,6 @@
 			        </div>
 			    </div>
 			</section>   
-
-			</div><!--.body-content-->	
 
 			<footer class="footer">
 				<section class="more-foot">
@@ -71,7 +71,7 @@
 											Start Free Trial
 											<i class="fa fa-right fa-arrow-circle-right"></i>
 										</a>
-					          <a class="btn btn-clear btn-block" href="http://login.icanvassapp.com/Account/Register">											
+					          <a class="btn btn-clear btn-block" href="http://login.icanvassapp.com/">
 											Sign In
 										</a>  										  								
 					      	</div>

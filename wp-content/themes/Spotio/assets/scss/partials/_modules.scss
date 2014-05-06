@@ -24,6 +24,10 @@ ol {
     display: table;
 }
 
+.no-margin {
+    margin: 0 0 0 0!important;
+}
+
 ol, ul {
     margin-bottom: 0px;
 }
@@ -706,17 +710,17 @@ border-top: 0;
 }
 
 .plan .btn {
-display: block;
-width: auto;
-margin: 0 -2px -2px;
-padding: 22px 20px 24px;
-font-size: 22px;
-@include border-radius(0 0 4px 4px);
+    display: block;
+    width: auto;
+    margin: 0 -2px -2px;
+    padding: 22px 20px 24px;
+    font-size: 22px;
+    @include border-radius(0 0 4px 4px);
 }
 
 .pricing {
     margin-top: 35px;
-    margin-bottom: 80px;
+    margin-bottom: 0px;
 }
 
 // Features Box /////////////////////////////////
@@ -728,11 +732,6 @@ padding-top: 50px;
 margin-top: 50px;
 min-height: 100px;
 border-top: 2px solid $hr-border;
-}
-
-section.features .box:first-child {
-margin-top: 0;
-border-top: 0;
 }
 
 section.features .box > img {

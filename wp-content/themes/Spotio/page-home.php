@@ -55,10 +55,10 @@ Template Name: Home
                         Start Free Trial
                         <i class="fa fa-right fa-arrow-circle-right"></i>
                     </a>
-                    <a class="btn btn-lg btn-clear btn-block text-center" href="/features">
+<!--                     <a class="btn btn-lg btn-clear btn-block text-center" href="/features">
                         How It Works
                         <i class="fa fa-right fa-play-circle"></i>
-                    </a>                                    
+                    </a>   -->                                  
                 </p>
             </div>            
         </div>              
