@@ -115,13 +115,35 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/customer\/michelle.png": {
+	"\/assets\/images\/customer\/james-festini.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 72873,
-		"inputAbbreviatedPath": "\/assets\/images\/customer\/michelle.png",
-		"outputAbbreviatedPath": "\/assets\/images\/customer\/michelle.png",
+		"initialSize": 28699,
+		"inputAbbreviatedPath": "\/assets\/images\/customer\/james-festini.png",
+		"outputAbbreviatedPath": "\/assets\/images\/customer\/james-festini.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/customer\/michelle-capp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36316,
+		"inputAbbreviatedPath": "\/assets\/images\/customer\/michelle-capp.png",
+		"outputAbbreviatedPath": "\/assets\/images\/customer\/michelle-capp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/customer\/steven-scheeler.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39917,
+		"inputAbbreviatedPath": "\/assets\/images\/customer\/steven-scheeler.png",
+		"outputAbbreviatedPath": "\/assets\/images\/customer\/steven-scheeler.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -320,6 +342,28 @@
 		"initialSize": 7603,
 		"inputAbbreviatedPath": "\/assets\/images\/logo.png",
 		"outputAbbreviatedPath": "\/assets\/images\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/psd\/customers\/James Festini.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24417,
+		"inputAbbreviatedPath": "\/assets\/images\/psd\/customers\/James Festini.png",
+		"outputAbbreviatedPath": "\/assets\/images\/psd\/customers\/James Festini.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/psd\/customers\/Steven Scheeler.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33932,
+		"inputAbbreviatedPath": "\/assets\/images\/psd\/customers\/Steven Scheeler.png",
+		"outputAbbreviatedPath": "\/assets\/images\/psd\/customers\/Steven Scheeler.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -606,6 +650,17 @@
 		"initialSize": 57367,
 		"inputAbbreviatedPath": "\/assets\/images\/psd\/logos\/QuickBooks_logos\/QuickBooks_color.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/psd\/logos\/QuickBooks_logos\/QuickBooks_color.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/screen-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 169501,
+		"inputAbbreviatedPath": "\/assets\/images\/screen-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/screen-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

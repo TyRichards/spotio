@@ -10917,6 +10917,15 @@ section.features .carousel .carousel-indicators li {
   color: white;
 }
 
+/* line 832, ../scss/partials/_modules.scss */
+.alert, .validation_error, #gforms_confirmation_message {
+  margin-top: 30px;
+}
+/* line 834, ../scss/partials/_modules.scss */
+.alert h1, .validation_error h1, #gforms_confirmation_message h1, .alert h2, .validation_error h2, #gforms_confirmation_message h2, .alert h3, .validation_error h3, #gforms_confirmation_message h3, .alert h4, .validation_error h4, #gforms_confirmation_message h4, .alert h5, .validation_error h5, #gforms_confirmation_message h5, .alert h6, .validation_error h6, #gforms_confirmation_message h6 {
+  margin-top: 0 !important;
+}
+
 @media (min-width: 768px) {
   /* line 9, ../scss/partials/_states.scss */
   header .collapse .call-to-action {

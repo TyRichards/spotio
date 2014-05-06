@@ -63,6 +63,22 @@ Template Name: Pricing
             </div>
         </div>
     </section>  
+    <section>
+        <div class="col-xs-12">          
+            <div class="col-md-8 col-md-offset-2 col-lg-4 col-lg-offset-0">                
+                <h5><i class="fa fa-file fa-left"></i>Is there a contract?</h5>                                        
+                <p>No, Spotio is paid on a month-to-month basis and you can cancel at anytime. If you cancel during the middle of your billing cycle you will not be given a prorated refund.</p>
+            </div>
+            <div class="col-md-8 col-md-offset-2 col-lg-4 col-lg-offset-0">  
+                <h5><i class="fa fa-tags fa-left"></i>Are there discounts?</h5>                        
+                <p>Yes, we offer discounts for large teams over with 25 users and for paying up front for a years worth of use. Please contact us for more information on the available discounts.</p>
+            </div>              
+            <div class="col-md-8 col-md-offset-2 col-lg-4 col-lg-offset-0">  
+                <h5><i class="fa fa-lock fa-left"></i>How safe is my Data?</h5>                                        
+                <p>Very safe. Your data is stored on our secure servers, not the mobile device. If you lose your phone, don't worry, log in on another device and BOOM, there is everything. Offsite backups happen every day.</p>
+            </div>                      
+        </div>
+    </section>      
     <section class="section reviews">
         <div class="col-xs-12">
             <div class="text-center col-sm-10 col-sm-offset-1">
